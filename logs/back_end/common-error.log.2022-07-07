@@ -1,0 +1,170 @@
+2022-07-07 00:00:15,054 ERROR 5628 [egg-mongoose] mongodb://123.56.119.225:26030/person_admin disconnected
+2022-07-07 00:03:43,075 ERROR 5628 [egg-mongoose] mongodb://123.56.119.225:26030/person_admin disconnected
+2022-07-07 00:05:29,088 ERROR 5628 [egg-mongoose] mongodb://123.56.119.225:26030/person_admin disconnected
+2022-07-07 01:43:29,407 ERROR 5628 [egg-mongoose] mongodb://123.56.119.225:26030/person_admin disconnected
+2022-07-07 03:40:23,860 ERROR 5628 [-/127.0.0.1/-/1ms GET /api/getCod?] nodejs.Error: 
+    at Function.throw (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\extend\application.js:30:11)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\middleware\responseData.js:4:24
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-bodyparser\index.js:95:5)
+    at async C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-static-cache\index.js:41:56
+    at async notfound (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg\app\middleware\meta.js:18:5)
+code: 404
+pid: 5628
+hostname: DESKTOP-CD6QG1R
+
+2022-07-07 03:45:22,832 ERROR 5628 [-/127.0.0.1/-/1ms GET /api/getCod?number=13552752517] nodejs.Error: 
+    at Function.throw (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\extend\application.js:30:11)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\middleware\responseData.js:4:24
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-bodyparser\index.js:95:5)
+    at async C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-static-cache\index.js:41:56
+    at async notfound (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg\app\middleware\meta.js:18:5)
+code: 404
+pid: 5628
+hostname: DESKTOP-CD6QG1R
+
+2022-07-07 03:46:44,837 ERROR 5628 [-/127.0.0.1/-/1ms GET /api/getCod?number=13552752517] nodejs.Error: 
+    at Function.throw (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\extend\application.js:30:11)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\middleware\responseData.js:4:24
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-bodyparser\index.js:95:5)
+    at async C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-static-cache\index.js:41:56
+    at async notfound (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg\app\middleware\meta.js:18:5)
+code: 404
+pid: 5628
+hostname: DESKTOP-CD6QG1R
+
+2022-07-07 03:47:27,523 ERROR 5628 [-/127.0.0.1/-/1ms GET /api/getCod?number=13085271091] nodejs.Error: 
+    at Function.throw (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\extend\application.js:30:11)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\middleware\responseData.js:4:24
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-bodyparser\index.js:95:5)
+    at async C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-static-cache\index.js:41:56
+    at async notfound (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg\app\middleware\meta.js:18:5)
+code: 404
+pid: 5628
+hostname: DESKTOP-CD6QG1R
+
+2022-07-07 04:05:21,465 ERROR 5628 [egg-mongoose] mongodb://123.56.119.225:26030/person_admin disconnected
+2022-07-07 04:54:16,435 ERROR 5628 [egg-mongoose] mongodb://123.56.119.225:26030/person_admin disconnected
+2022-07-07 18:24:00,009 ERROR 10588 [-/127.0.0.1/-/1ms GET /api/queryLoginStatus?] nodejs.JsonWebTokenError: jwt malformed
+    at Object.module.exports [as verify] (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\jsonwebtoken\verify.js:63:17)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\middleware\auth.js:6:22
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\middleware\responseData.js:2:9
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-compose\index.js:42:32)
+    at i18n (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-compose\index.js:42:32)
+name: "JsonWebTokenError"
+message: "jwt malformed"
+pid: 10588
+hostname: DESKTOP-CD6QG1R
+
+2022-07-07 18:24:00,013 ERROR 10588 [-/127.0.0.1/-/6ms GET /api/queryLoginStatus?] nodejs.Error: 
+    at Function.throw (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\extend\application.js:30:11)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\middleware\auth.js:10:24
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\middleware\responseData.js:2:9
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-compose\index.js:42:32)
+    at i18n (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-compose\index.js:42:32)
+code: 401
+pid: 10588
+hostname: DESKTOP-CD6QG1R
+
+2022-07-07 18:34:07,166 ERROR 10588 [-/127.0.0.1/-/0ms GET /api/queryLoginStatus?] nodejs.JsonWebTokenError: jwt malformed
+    at Object.module.exports [as verify] (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\jsonwebtoken\verify.js:63:17)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\middleware\auth.js:6:22
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\middleware\responseData.js:2:9
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-compose\index.js:42:32)
+    at i18n (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-compose\index.js:42:32)
+name: "JsonWebTokenError"
+message: "jwt malformed"
+pid: 10588
+hostname: DESKTOP-CD6QG1R
+
+2022-07-07 18:34:07,169 ERROR 10588 [-/127.0.0.1/-/4ms GET /api/queryLoginStatus?] nodejs.Error: 
+    at Function.throw (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\extend\application.js:30:11)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\middleware\auth.js:10:24
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\middleware\responseData.js:2:9
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-compose\index.js:42:32)
+    at i18n (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-compose\index.js:42:32)
+code: 401
+pid: 10588
+hostname: DESKTOP-CD6QG1R
+
+2022-07-07 18:56:52,202 ERROR 10588 [egg-mongoose] mongodb://123.56.119.225:26030/person_admin disconnected
+2022-07-07 20:18:14,040 ERROR 10588 [egg-mongoose] mongodb://123.56.119.225:26030/person_admin disconnected

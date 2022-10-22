@@ -1,0 +1,878 @@
+[
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/getStaff",
+    "regexp": "/^\\/api\\/getStaff(?:\\/(?=$))?$/",
+    "stack": [
+      "anonymous",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/checkIsExists",
+    "regexp": "/^\\/api\\/checkIsExists(?:\\/(?=$))?$/",
+    "stack": [
+      "anonymous",
+      "anonymous",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/createStaff",
+    "regexp": "/^\\/api\\/createStaff(?:\\/(?=$))?$/",
+    "stack": [
+      "anonymous",
+      "anonymous",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "PUT"
+    ],
+    "paramNames": [],
+    "path": "/api/updateStaff",
+    "regexp": "/^\\/api\\/updateStaff(?:\\/(?=$))?$/",
+    "stack": [
+      "anonymous",
+      "anonymous",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/destroyStaff",
+    "regexp": "/^\\/api\\/destroyStaff(?:\\/(?=$))?$/",
+    "stack": [
+      "anonymous",
+      "anonymous",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [
+      {
+        "name": "id",
+        "prefix": "/",
+        "delimiter": "/",
+        "optional": false,
+        "repeat": false,
+        "partial": false,
+        "asterisk": false,
+        "pattern": "[^\\/]+?"
+      }
+    ],
+    "path": "/api/staffDetail/:id",
+    "regexp": "/^\\/api\\/staffDetail\\/((?:[^\\/]+?))(?:\\/(?=$))?$/",
+    "stack": [
+      "anonymous",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/api/getStaffInfoList",
+    "regexp": "/^\\/api\\/getStaffInfoList(?:\\/(?=$))?$/",
+    "stack": [
+      "anonymous",
+      "anonymous",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": "departments",
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/api/department",
+    "regexp": "/^\\/api\\/department(?:\\/(?=$))?$/",
+    "stack": [
+      "anonymous",
+      "anonymous",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": "departments",
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/department",
+    "regexp": "/^\\/api\\/department(?:\\/(?=$))?$/",
+    "stack": [
+      "anonymous",
+      "anonymous",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": "department",
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [
+      {
+        "name": "id",
+        "prefix": "/",
+        "delimiter": "/",
+        "optional": false,
+        "repeat": false,
+        "partial": false,
+        "asterisk": false,
+        "pattern": "[^\\/]+?"
+      }
+    ],
+    "path": "/api/department/:id",
+    "regexp": "/^\\/api\\/department\\/((?:[^\\/]+?))(?:\\/(?=$))?$/",
+    "stack": [
+      "anonymous",
+      "anonymous",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": "department",
+    "methods": [
+      "PATCH",
+      "PUT"
+    ],
+    "paramNames": [
+      {
+        "name": "id",
+        "prefix": "/",
+        "delimiter": "/",
+        "optional": false,
+        "repeat": false,
+        "partial": false,
+        "asterisk": false,
+        "pattern": "[^\\/]+?"
+      }
+    ],
+    "path": "/api/department/:id",
+    "regexp": "/^\\/api\\/department\\/((?:[^\\/]+?))(?:\\/(?=$))?$/",
+    "stack": [
+      "anonymous",
+      "anonymous",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": "destroy_department",
+    "methods": [
+      "DELETE"
+    ],
+    "paramNames": [
+      {
+        "name": "id",
+        "prefix": "/",
+        "delimiter": "/",
+        "optional": false,
+        "repeat": false,
+        "partial": false,
+        "asterisk": false,
+        "pattern": "[^\\/]+?"
+      }
+    ],
+    "path": "/api/department/:id",
+    "regexp": "/^\\/api\\/department\\/((?:[^\\/]+?))(?:\\/(?=$))?$/",
+    "stack": [
+      "anonymous",
+      "anonymous",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/api/getAttendanceTable",
+    "regexp": "/^\\/api\\/getAttendanceTable(?:\\/(?=$))?$/",
+    "stack": [
+      "anonymous",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/getAttendance",
+    "regexp": "/^\\/api\\/getAttendance(?:\\/(?=$))?$/",
+    "stack": [
+      "anonymous",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [
+      {
+        "name": "id",
+        "prefix": "/",
+        "delimiter": "/",
+        "optional": false,
+        "repeat": false,
+        "partial": false,
+        "asterisk": false,
+        "pattern": "[^\\/]+?"
+      }
+    ],
+    "path": "/api/getAttendanceDetail/:id",
+    "regexp": "/^\\/api\\/getAttendanceDetail\\/((?:[^\\/]+?))(?:\\/(?=$))?$/",
+    "stack": [
+      "anonymous",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/createAttendance",
+    "regexp": "/^\\/api\\/createAttendance(?:\\/(?=$))?$/",
+    "stack": [
+      "anonymous",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "PUT"
+    ],
+    "paramNames": [],
+    "path": "/api/updateAttendance",
+    "regexp": "/^\\/api\\/updateAttendance(?:\\/(?=$))?$/",
+    "stack": [
+      "anonymous",
+      "anonymous",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/deleteAttendance",
+    "regexp": "/^\\/api\\/deleteAttendance(?:\\/(?=$))?$/",
+    "stack": [
+      "anonymous",
+      "anonymous",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/getLevel",
+    "regexp": "/^\\/api\\/getLevel(?:\\/(?=$))?$/",
+    "stack": [
+      "anonymous",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/createLevel",
+    "regexp": "/^\\/api\\/createLevel(?:\\/(?=$))?$/",
+    "stack": [
+      "anonymous",
+      "anonymous",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "PUT"
+    ],
+    "paramNames": [
+      {
+        "name": "id",
+        "prefix": "/",
+        "delimiter": "/",
+        "optional": false,
+        "repeat": false,
+        "partial": false,
+        "asterisk": false,
+        "pattern": "[^\\/]+?"
+      }
+    ],
+    "path": "/api/updateLevel/:id",
+    "regexp": "/^\\/api\\/updateLevel\\/((?:[^\\/]+?))(?:\\/(?=$))?$/",
+    "stack": [
+      "anonymous",
+      "anonymous",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/destroyLevel",
+    "regexp": "/^\\/api\\/destroyLevel(?:\\/(?=$))?$/",
+    "stack": [
+      "anonymous",
+      "anonymous",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [
+      {
+        "name": "id",
+        "prefix": "/",
+        "delimiter": "/",
+        "optional": false,
+        "repeat": false,
+        "partial": false,
+        "asterisk": false,
+        "pattern": "[^\\/]+?"
+      }
+    ],
+    "path": "/api/getLevelDetail/:id",
+    "regexp": "/^\\/api\\/getLevelDetail\\/((?:[^\\/]+?))(?:\\/(?=$))?$/",
+    "stack": [
+      "anonymous",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": "assessments",
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/assessment",
+    "regexp": "/^\\/api\\/assessment(?:\\/(?=$))?$/",
+    "stack": [
+      "anonymous",
+      "anonymous",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": "assessment",
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [
+      {
+        "name": "id",
+        "prefix": "/",
+        "delimiter": "/",
+        "optional": false,
+        "repeat": false,
+        "partial": false,
+        "asterisk": false,
+        "pattern": "[^\\/]+?"
+      }
+    ],
+    "path": "/api/assessment/:id",
+    "regexp": "/^\\/api\\/assessment\\/((?:[^\\/]+?))(?:\\/(?=$))?$/",
+    "stack": [
+      "anonymous",
+      "anonymous",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": "assessment",
+    "methods": [
+      "PATCH",
+      "PUT"
+    ],
+    "paramNames": [
+      {
+        "name": "id",
+        "prefix": "/",
+        "delimiter": "/",
+        "optional": false,
+        "repeat": false,
+        "partial": false,
+        "asterisk": false,
+        "pattern": "[^\\/]+?"
+      }
+    ],
+    "path": "/api/assessment/:id",
+    "regexp": "/^\\/api\\/assessment\\/((?:[^\\/]+?))(?:\\/(?=$))?$/",
+    "stack": [
+      "anonymous",
+      "anonymous",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": "destroy_assessment",
+    "methods": [
+      "DELETE"
+    ],
+    "paramNames": [
+      {
+        "name": "id",
+        "prefix": "/",
+        "delimiter": "/",
+        "optional": false,
+        "repeat": false,
+        "partial": false,
+        "asterisk": false,
+        "pattern": "[^\\/]+?"
+      }
+    ],
+    "path": "/api/assessment/:id",
+    "regexp": "/^\\/api\\/assessment\\/((?:[^\\/]+?))(?:\\/(?=$))?$/",
+    "stack": [
+      "anonymous",
+      "anonymous",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/getAssessmentList",
+    "regexp": "/^\\/api\\/getAssessmentList(?:\\/(?=$))?$/",
+    "stack": [
+      "anonymous",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/destroyAssessment",
+    "regexp": "/^\\/api\\/destroyAssessment(?:\\/(?=$))?$/",
+    "stack": [
+      "anonymous",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": "salaryAdjustments",
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/salaryAdjustment",
+    "regexp": "/^\\/api\\/salaryAdjustment(?:\\/(?=$))?$/",
+    "stack": [
+      "anonymous",
+      "anonymous",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": "salaryAdjustment",
+    "methods": [
+      "PATCH",
+      "PUT"
+    ],
+    "paramNames": [
+      {
+        "name": "id",
+        "prefix": "/",
+        "delimiter": "/",
+        "optional": false,
+        "repeat": false,
+        "partial": false,
+        "asterisk": false,
+        "pattern": "[^\\/]+?"
+      }
+    ],
+    "path": "/api/salaryAdjustment/:id",
+    "regexp": "/^\\/api\\/salaryAdjustment\\/((?:[^\\/]+?))(?:\\/(?=$))?$/",
+    "stack": [
+      "anonymous",
+      "anonymous",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": "destroy_salaryAdjustment",
+    "methods": [
+      "DELETE"
+    ],
+    "paramNames": [
+      {
+        "name": "id",
+        "prefix": "/",
+        "delimiter": "/",
+        "optional": false,
+        "repeat": false,
+        "partial": false,
+        "asterisk": false,
+        "pattern": "[^\\/]+?"
+      }
+    ],
+    "path": "/api/salaryAdjustment/:id",
+    "regexp": "/^\\/api\\/salaryAdjustment\\/((?:[^\\/]+?))(?:\\/(?=$))?$/",
+    "stack": [
+      "anonymous",
+      "anonymous",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/destroySalary",
+    "regexp": "/^\\/api\\/destroySalary(?:\\/(?=$))?$/",
+    "stack": [
+      "anonymous",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [
+      {
+        "name": "id",
+        "prefix": "/",
+        "delimiter": "/",
+        "optional": false,
+        "repeat": false,
+        "partial": false,
+        "asterisk": false,
+        "pattern": "[^\\/]+?"
+      }
+    ],
+    "path": "/api/getSalaryAdjustmentDetail/:id",
+    "regexp": "/^\\/api\\/getSalaryAdjustmentDetail\\/((?:[^\\/]+?))(?:\\/(?=$))?$/",
+    "stack": [
+      "anonymous",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/api/salaryAdjustment",
+    "regexp": "/^\\/api\\/salaryAdjustment(?:\\/(?=$))?$/",
+    "stack": [
+      "anonymous",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": "rewardAndPunishments",
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/api/rewardAndPunishment",
+    "regexp": "/^\\/api\\/rewardAndPunishment(?:\\/(?=$))?$/",
+    "stack": [
+      "anonymous",
+      "anonymous",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": "rewardAndPunishments",
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/rewardAndPunishment",
+    "regexp": "/^\\/api\\/rewardAndPunishment(?:\\/(?=$))?$/",
+    "stack": [
+      "anonymous",
+      "anonymous",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": "rewardAndPunishment",
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [
+      {
+        "name": "id",
+        "prefix": "/",
+        "delimiter": "/",
+        "optional": false,
+        "repeat": false,
+        "partial": false,
+        "asterisk": false,
+        "pattern": "[^\\/]+?"
+      }
+    ],
+    "path": "/api/rewardAndPunishment/:id",
+    "regexp": "/^\\/api\\/rewardAndPunishment\\/((?:[^\\/]+?))(?:\\/(?=$))?$/",
+    "stack": [
+      "anonymous",
+      "anonymous",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": "rewardAndPunishment",
+    "methods": [
+      "PATCH",
+      "PUT"
+    ],
+    "paramNames": [
+      {
+        "name": "id",
+        "prefix": "/",
+        "delimiter": "/",
+        "optional": false,
+        "repeat": false,
+        "partial": false,
+        "asterisk": false,
+        "pattern": "[^\\/]+?"
+      }
+    ],
+    "path": "/api/rewardAndPunishment/:id",
+    "regexp": "/^\\/api\\/rewardAndPunishment\\/((?:[^\\/]+?))(?:\\/(?=$))?$/",
+    "stack": [
+      "anonymous",
+      "anonymous",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": "destroy_rewardAndPunishment",
+    "methods": [
+      "DELETE"
+    ],
+    "paramNames": [
+      {
+        "name": "id",
+        "prefix": "/",
+        "delimiter": "/",
+        "optional": false,
+        "repeat": false,
+        "partial": false,
+        "asterisk": false,
+        "pattern": "[^\\/]+?"
+      }
+    ],
+    "path": "/api/rewardAndPunishment/:id",
+    "regexp": "/^\\/api\\/rewardAndPunishment\\/((?:[^\\/]+?))(?:\\/(?=$))?$/",
+    "stack": [
+      "anonymous",
+      "anonymous",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/deleteRewardAndPunishment",
+    "regexp": "/^\\/api\\/deleteRewardAndPunishment(?:\\/(?=$))?$/",
+    "stack": [
+      "anonymous",
+      "anonymous",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/login",
+    "regexp": "/^\\/api\\/login(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/api/queryLoginStatus",
+    "regexp": "/^\\/api\\/queryLoginStatus(?:\\/(?=$))?$/",
+    "stack": [
+      "anonymous",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/api/getRouteList",
+    "regexp": "/^\\/api\\/getRouteList(?:\\/(?=$))?$/",
+    "stack": [
+      "anonymous",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/api/getCode",
+    "regexp": "/^\\/api\\/getCode(?:\\/(?=$))?$/",
+    "stack": [
+      "anonymous",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/api/checkSmCode",
+    "regexp": "/^\\/api\\/checkSmCode(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/resetPassword",
+    "regexp": "/^\\/api\\/resetPassword(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/api/getUploadToken",
+    "regexp": "/^\\/api\\/getUploadToken(?:\\/(?=$))?$/",
+    "stack": [
+      "anonymous",
+      "anonymous",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/deleteFile",
+    "regexp": "/^\\/api\\/deleteFile(?:\\/(?=$))?$/",
+    "stack": [
+      "anonymous",
+      "anonymous",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/api/analyzeStaff",
+    "regexp": "/^\\/api\\/analyzeStaff(?:\\/(?=$))?$/",
+    "stack": [
+      "anonymous",
+      "anonymous",
+      "wrappedController"
+    ]
+  }
+]

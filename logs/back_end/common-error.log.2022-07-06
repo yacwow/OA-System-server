@@ -1,0 +1,147 @@
+2022-07-06 18:16:38,677 ERROR 22556 [egg-mongoose] mongodb://123.56.119.225:26030/person_admin disconnected
+2022-07-06 19:42:57,789 ERROR 5108 [-/127.0.0.1/-/5ms GET /] nodejs.Error: 
+    at Function.throw (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\extend\application.js:30:11)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\middleware\responseData.js:4:24
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-bodyparser\index.js:95:5)
+    at async C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-static-cache\index.js:41:56
+    at async notfound (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg\app\middleware\meta.js:18:5)
+code: 404
+pid: 5108
+hostname: DESKTOP-CD6QG1R
+
+2022-07-06 23:15:25,569 ERROR 5628 [egg-mongoose] mongodb://123.56.119.225:26030/person_admin disconnected
+2022-07-06 23:19:39,379 ERROR 5628 [-/127.0.0.1/-/1ms GET /api/login?accountName=123qwe&password=123456&type=0] nodejs.Error: 
+    at Function.throw (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\extend\application.js:30:11)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\middleware\responseData.js:4:24
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-bodyparser\index.js:95:5)
+    at async C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-static-cache\index.js:41:56
+    at async notfound (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg\app\middleware\meta.js:18:5)
+code: 404
+pid: 5628
+hostname: DESKTOP-CD6QG1R
+
+2022-07-06 23:26:31,874 ERROR 5628 [-/127.0.0.1/-/1ms GET /api/login?accountName=xiaoming1&password=123&type=0] nodejs.Error: 
+    at Function.throw (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\extend\application.js:30:11)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\middleware\responseData.js:4:24
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-bodyparser\index.js:95:5)
+    at async C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-static-cache\index.js:41:56
+    at async notfound (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg\app\middleware\meta.js:18:5)
+code: 404
+pid: 5628
+hostname: DESKTOP-CD6QG1R
+
+2022-07-06 23:28:02,127 ERROR 5628 [-/127.0.0.1/-/1ms GET /api/login?accountName=admin&password=123&type=0] nodejs.Error: 
+    at Function.throw (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\extend\application.js:30:11)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\middleware\responseData.js:4:24
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-bodyparser\index.js:95:5)
+    at async C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-static-cache\index.js:41:56
+    at async notfound (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg\app\middleware\meta.js:18:5)
+code: 404
+pid: 5628
+hostname: DESKTOP-CD6QG1R
+
+2022-07-06 23:40:22,504 ERROR 5628 [-/127.0.0.1/-/0ms GET /api/login?accountName=admin&password=123456&type=0] nodejs.Error: 
+    at Function.throw (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\extend\application.js:30:11)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\middleware\responseData.js:4:24
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-bodyparser\index.js:95:5)
+    at async C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-static-cache\index.js:41:56
+    at async notfound (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg\app\middleware\meta.js:18:5)
+code: 404
+pid: 5628
+hostname: DESKTOP-CD6QG1R
+
+2022-07-06 23:46:21,302 ERROR 5628 [-/127.0.0.1/-/1ms GET /api/login?accountName=admin&password=123qwe&type=0] nodejs.Error: 
+    at Function.throw (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\extend\application.js:30:11)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\middleware\responseData.js:4:24
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-bodyparser\index.js:95:5)
+    at async C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-static-cache\index.js:41:56
+    at async notfound (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg\app\middleware\meta.js:18:5)
+code: 404
+pid: 5628
+hostname: DESKTOP-CD6QG1R
+
+2022-07-06 23:46:23,532 ERROR 5628 [-/127.0.0.1/-/0ms GET /api/login?accountName=admin&password=123qwe&type=0] nodejs.Error: 
+    at Function.throw (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\extend\application.js:30:11)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\middleware\responseData.js:4:24
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-bodyparser\index.js:95:5)
+    at async C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-static-cache\index.js:41:56
+    at async notfound (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg\app\middleware\meta.js:18:5)
+code: 404
+pid: 5628
+hostname: DESKTOP-CD6QG1R
+
+2022-07-06 23:46:32,819 ERROR 5628 [-/127.0.0.1/-/0ms GET /api/login?accountName=admin&password=123qwe&type=0] nodejs.Error: 
+    at Function.throw (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\extend\application.js:30:11)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\middleware\responseData.js:4:24
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-bodyparser\index.js:95:5)
+    at async C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-static-cache\index.js:41:56
+    at async notfound (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg\app\middleware\meta.js:18:5)
+code: 404
+pid: 5628
+hostname: DESKTOP-CD6QG1R
+
+2022-07-06 23:49:38,445 ERROR 5628 [egg-mongoose] mongodb://123.56.119.225:26030/person_admin disconnected

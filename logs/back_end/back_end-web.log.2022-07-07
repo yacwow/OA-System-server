@@ -1,0 +1,1289 @@
+2022-07-07 00:00:35,557 WARN 5628 [-/127.0.0.1/-/2ms POST /api/login] nodejs.UnprocessableEntityError: Validation Failed
+    at Object.throw (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa\lib\context.js:97:11)
+    at Object.validate (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-validate\app\extend\context.js:14:17)
+    at UserLoginController.userLogin (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\controller\userHandler.js:10:9)
+    at Object.callFn (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\middleware\responseData.js:2:9
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-compose\index.js:42:32)
+message: "Validation Failed"
+code: "invalid_param"
+errors: [{"message":" 字段丢失,您没有正确传递参数类型","field":"mobile","code":" 字段丢失,您没有正确传递该字段"},{"message":" 字段丢失,您没有正确传递参数类型","field":"code","code":" 字段丢失,您没有正确传递该字段"}]
+pid: 5628
+hostname: DESKTOP-CD6QG1R
+
+2022-07-07 00:01:10,131 WARN 5628 [-/127.0.0.1/-/0ms POST /api/login] nodejs.UnprocessableEntityError: Validation Failed
+    at Object.throw (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa\lib\context.js:97:11)
+    at Object.validate (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-validate\app\extend\context.js:14:17)
+    at UserLoginController.userLogin (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\controller\userHandler.js:10:9)
+    at Object.callFn (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\middleware\responseData.js:2:9
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-compose\index.js:42:32)
+message: "Validation Failed"
+code: "invalid_param"
+errors: [{"message":" 字段丢失,您没有正确传递参数类型","field":"mobile","code":" 字段丢失,您没有正确传递该字段"},{"message":" 字段丢失,您没有正确传递参数类型","field":"code","code":" 字段丢失,您没有正确传递该字段"}]
+pid: 5628
+hostname: DESKTOP-CD6QG1R
+
+2022-07-07 00:14:01,724 WARN 5628 [-/127.0.0.1/-/1ms POST /api/login] nodejs.UnprocessableEntityError: Validation Failed
+    at Object.throw (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa\lib\context.js:97:11)
+    at Object.validate (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-validate\app\extend\context.js:14:17)
+    at UserLoginController.userLogin (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\controller\userHandler.js:10:9)
+    at Object.callFn (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\middleware\responseData.js:2:9
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-compose\index.js:42:32)
+message: "Validation Failed"
+code: "invalid_param"
+errors: [{"message":"密码长度不正确","code":"无效","field":"password"}]
+pid: 5628
+hostname: DESKTOP-CD6QG1R
+
+2022-07-07 00:24:50,277 WARN 5628 [-/127.0.0.1/-/1ms POST /api/login] nodejs.UnprocessableEntityError: Validation Failed
+    at Object.throw (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa\lib\context.js:97:11)
+    at Object.validate (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-validate\app\extend\context.js:14:17)
+    at UserLoginController.userLogin (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\controller\userHandler.js:10:9)
+    at Object.callFn (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\middleware\responseData.js:2:9
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-compose\index.js:42:32)
+message: "Validation Failed"
+code: "invalid_param"
+errors: [{"message":" 字段丢失,您没有正确传递参数类型","field":"mobile","code":" 字段丢失,您没有正确传递该字段"},{"message":" 字段丢失,您没有正确传递参数类型","field":"code","code":" 字段丢失,您没有正确传递该字段"}]
+pid: 5628
+hostname: DESKTOP-CD6QG1R
+
+2022-07-07 00:24:51,362 WARN 5628 [-/127.0.0.1/-/1ms POST /api/login] nodejs.UnprocessableEntityError: Validation Failed
+    at Object.throw (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa\lib\context.js:97:11)
+    at Object.validate (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-validate\app\extend\context.js:14:17)
+    at UserLoginController.userLogin (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\controller\userHandler.js:10:9)
+    at Object.callFn (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\middleware\responseData.js:2:9
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-compose\index.js:42:32)
+message: "Validation Failed"
+code: "invalid_param"
+errors: [{"message":" 字段丢失,您没有正确传递参数类型","field":"mobile","code":" 字段丢失,您没有正确传递该字段"},{"message":" 字段丢失,您没有正确传递参数类型","field":"code","code":" 字段丢失,您没有正确传递该字段"}]
+pid: 5628
+hostname: DESKTOP-CD6QG1R
+
+2022-07-07 00:24:52,423 WARN 5628 [-/127.0.0.1/-/0ms POST /api/login] nodejs.UnprocessableEntityError: Validation Failed
+    at Object.throw (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa\lib\context.js:97:11)
+    at Object.validate (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-validate\app\extend\context.js:14:17)
+    at UserLoginController.userLogin (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\controller\userHandler.js:10:9)
+    at Object.callFn (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\middleware\responseData.js:2:9
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-compose\index.js:42:32)
+message: "Validation Failed"
+code: "invalid_param"
+errors: [{"message":" 字段丢失,您没有正确传递参数类型","field":"mobile","code":" 字段丢失,您没有正确传递该字段"},{"message":" 字段丢失,您没有正确传递参数类型","field":"code","code":" 字段丢失,您没有正确传递该字段"}]
+pid: 5628
+hostname: DESKTOP-CD6QG1R
+
+2022-07-07 00:25:04,603 WARN 5628 [-/127.0.0.1/-/0ms POST /api/login] nodejs.UnprocessableEntityError: Validation Failed
+    at Object.throw (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa\lib\context.js:97:11)
+    at Object.validate (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-validate\app\extend\context.js:14:17)
+    at UserLoginController.userLogin (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\controller\userHandler.js:10:9)
+    at Object.callFn (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\middleware\responseData.js:2:9
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-compose\index.js:42:32)
+message: "Validation Failed"
+code: "invalid_param"
+errors: [{"message":" 字段丢失,您没有正确传递参数类型","field":"mobile","code":" 字段丢失,您没有正确传递该字段"},{"message":" 字段丢失,您没有正确传递参数类型","field":"code","code":" 字段丢失,您没有正确传递该字段"}]
+pid: 5628
+hostname: DESKTOP-CD6QG1R
+
+2022-07-07 00:27:31,107 WARN 5628 [-/127.0.0.1/-/0ms POST /api/login] nodejs.UnprocessableEntityError: Validation Failed
+    at Object.throw (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa\lib\context.js:97:11)
+    at Object.validate (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-validate\app\extend\context.js:14:17)
+    at UserLoginController.userLogin (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\controller\userHandler.js:10:9)
+    at Object.callFn (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\middleware\responseData.js:2:9
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-compose\index.js:42:32)
+message: "Validation Failed"
+code: "invalid_param"
+errors: [{"message":" 字段丢失,您没有正确传递参数类型","field":"mobile","code":" 字段丢失,您没有正确传递该字段"},{"message":" 字段丢失,您没有正确传递参数类型","field":"code","code":" 字段丢失,您没有正确传递该字段"}]
+pid: 5628
+hostname: DESKTOP-CD6QG1R
+
+2022-07-07 00:28:26,705 WARN 5628 [-/127.0.0.1/-/1ms POST /api/login] nodejs.UnprocessableEntityError: Validation Failed
+    at Object.throw (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa\lib\context.js:97:11)
+    at Object.validate (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-validate\app\extend\context.js:14:17)
+    at UserLoginController.userLogin (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\controller\userHandler.js:10:9)
+    at Object.callFn (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\middleware\responseData.js:2:9
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-compose\index.js:42:32)
+message: "Validation Failed"
+code: "invalid_param"
+errors: [{"message":"密码长度不正确","code":"无效","field":"password"}]
+pid: 5628
+hostname: DESKTOP-CD6QG1R
+
+2022-07-07 00:28:32,847 WARN 5628 [-/127.0.0.1/-/1ms POST /api/login] nodejs.UnprocessableEntityError: Validation Failed
+    at Object.throw (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa\lib\context.js:97:11)
+    at Object.validate (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-validate\app\extend\context.js:14:17)
+    at UserLoginController.userLogin (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\controller\userHandler.js:10:9)
+    at Object.callFn (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\middleware\responseData.js:2:9
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-compose\index.js:42:32)
+message: "Validation Failed"
+code: "invalid_param"
+errors: [{"message":"密码长度不正确","code":"无效","field":"password"}]
+pid: 5628
+hostname: DESKTOP-CD6QG1R
+
+2022-07-07 00:31:20,443 WARN 5628 [-/127.0.0.1/-/1ms POST /api/login] nodejs.UnprocessableEntityError: Validation Failed
+    at Object.throw (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa\lib\context.js:97:11)
+    at Object.validate (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-validate\app\extend\context.js:14:17)
+    at UserLoginController.userLogin (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\controller\userHandler.js:10:9)
+    at Object.callFn (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\middleware\responseData.js:2:9
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-compose\index.js:42:32)
+message: "Validation Failed"
+code: "invalid_param"
+errors: [{"message":"密码长度不正确","code":"无效","field":"password"}]
+pid: 5628
+hostname: DESKTOP-CD6QG1R
+
+2022-07-07 00:31:24,469 WARN 5628 [-/127.0.0.1/-/2ms POST /api/login] nodejs.UnprocessableEntityError: Validation Failed
+    at Object.throw (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa\lib\context.js:97:11)
+    at Object.validate (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-validate\app\extend\context.js:14:17)
+    at UserLoginController.userLogin (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\controller\userHandler.js:10:9)
+    at Object.callFn (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\middleware\responseData.js:2:9
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-compose\index.js:42:32)
+message: "Validation Failed"
+code: "invalid_param"
+errors: [{"message":"密码长度不正确","code":"无效","field":"password"}]
+pid: 5628
+hostname: DESKTOP-CD6QG1R
+
+2022-07-07 00:31:25,867 WARN 5628 [-/127.0.0.1/-/1ms POST /api/login] nodejs.UnprocessableEntityError: Validation Failed
+    at Object.throw (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa\lib\context.js:97:11)
+    at Object.validate (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-validate\app\extend\context.js:14:17)
+    at UserLoginController.userLogin (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\controller\userHandler.js:10:9)
+    at Object.callFn (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\middleware\responseData.js:2:9
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-compose\index.js:42:32)
+message: "Validation Failed"
+code: "invalid_param"
+errors: [{"message":"密码长度不正确","code":"无效","field":"password"}]
+pid: 5628
+hostname: DESKTOP-CD6QG1R
+
+2022-07-07 00:31:32,009 WARN 5628 [-/127.0.0.1/-/1ms POST /api/login] nodejs.UnprocessableEntityError: Validation Failed
+    at Object.throw (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa\lib\context.js:97:11)
+    at Object.validate (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-validate\app\extend\context.js:14:17)
+    at UserLoginController.userLogin (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\controller\userHandler.js:10:9)
+    at Object.callFn (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\middleware\responseData.js:2:9
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-compose\index.js:42:32)
+message: "Validation Failed"
+code: "invalid_param"
+errors: [{"message":"密码长度不正确","code":"无效","field":"password"}]
+pid: 5628
+hostname: DESKTOP-CD6QG1R
+
+2022-07-07 00:31:47,388 WARN 5628 [-/127.0.0.1/-/0ms POST /api/login] nodejs.UnprocessableEntityError: Validation Failed
+    at Object.throw (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa\lib\context.js:97:11)
+    at Object.validate (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-validate\app\extend\context.js:14:17)
+    at UserLoginController.userLogin (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\controller\userHandler.js:10:9)
+    at Object.callFn (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\middleware\responseData.js:2:9
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-compose\index.js:42:32)
+message: "Validation Failed"
+code: "invalid_param"
+errors: [{"message":"密码长度不正确","code":"无效","field":"password"}]
+pid: 5628
+hostname: DESKTOP-CD6QG1R
+
+2022-07-07 00:32:17,260 WARN 5628 [-/127.0.0.1/-/0ms POST /api/login] nodejs.UnprocessableEntityError: Validation Failed
+    at Object.throw (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa\lib\context.js:97:11)
+    at Object.validate (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-validate\app\extend\context.js:14:17)
+    at UserLoginController.userLogin (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\controller\userHandler.js:10:9)
+    at Object.callFn (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\middleware\responseData.js:2:9
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-compose\index.js:42:32)
+message: "Validation Failed"
+code: "invalid_param"
+errors: [{"message":"密码长度不正确","code":"无效","field":"password"}]
+pid: 5628
+hostname: DESKTOP-CD6QG1R
+
+2022-07-07 00:34:17,013 WARN 5628 [-/127.0.0.1/-/0ms POST /api/login] nodejs.UnprocessableEntityError: Validation Failed
+    at Object.throw (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa\lib\context.js:97:11)
+    at Object.validate (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-validate\app\extend\context.js:14:17)
+    at UserLoginController.userLogin (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\controller\userHandler.js:10:9)
+    at Object.callFn (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\middleware\responseData.js:2:9
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-compose\index.js:42:32)
+message: "Validation Failed"
+code: "invalid_param"
+errors: [{"message":"密码长度不正确","code":"无效","field":"password"}]
+pid: 5628
+hostname: DESKTOP-CD6QG1R
+
+2022-07-07 00:34:25,456 WARN 5628 [-/127.0.0.1/-/0ms POST /api/login] nodejs.UnprocessableEntityError: Validation Failed
+    at Object.throw (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa\lib\context.js:97:11)
+    at Object.validate (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-validate\app\extend\context.js:14:17)
+    at UserLoginController.userLogin (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\controller\userHandler.js:10:9)
+    at Object.callFn (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\middleware\responseData.js:2:9
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-compose\index.js:42:32)
+message: "Validation Failed"
+code: "invalid_param"
+errors: [{"message":"密码长度不正确","code":"无效","field":"password"}]
+pid: 5628
+hostname: DESKTOP-CD6QG1R
+
+2022-07-07 00:35:01,631 WARN 5628 [-/127.0.0.1/-/1ms POST /api/login] nodejs.UnprocessableEntityError: Validation Failed
+    at Object.throw (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa\lib\context.js:97:11)
+    at Object.validate (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-validate\app\extend\context.js:14:17)
+    at UserLoginController.userLogin (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\controller\userHandler.js:10:9)
+    at Object.callFn (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\middleware\responseData.js:2:9
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-compose\index.js:42:32)
+message: "Validation Failed"
+code: "invalid_param"
+errors: [{"message":"密码长度不正确","code":"无效","field":"password"}]
+pid: 5628
+hostname: DESKTOP-CD6QG1R
+
+2022-07-07 00:52:12,609 WARN 5628 [-/127.0.0.1/-/1ms POST /api/login] nodejs.UnprocessableEntityError: Validation Failed
+    at Object.throw (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa\lib\context.js:97:11)
+    at Object.validate (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-validate\app\extend\context.js:14:17)
+    at UserLoginController.userLogin (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\controller\userHandler.js:10:9)
+    at Object.callFn (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\middleware\responseData.js:2:9
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-compose\index.js:42:32)
+message: "Validation Failed"
+code: "invalid_param"
+errors: [{"message":"密码长度不正确","code":"无效","field":"password"}]
+pid: 5628
+hostname: DESKTOP-CD6QG1R
+
+2022-07-07 00:52:15,728 WARN 5628 [-/127.0.0.1/-/1ms POST /api/login] nodejs.UnprocessableEntityError: Validation Failed
+    at Object.throw (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa\lib\context.js:97:11)
+    at Object.validate (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-validate\app\extend\context.js:14:17)
+    at UserLoginController.userLogin (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\controller\userHandler.js:10:9)
+    at Object.callFn (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\middleware\responseData.js:2:9
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-compose\index.js:42:32)
+message: "Validation Failed"
+code: "invalid_param"
+errors: [{"message":"密码长度不正确","code":"无效","field":"password"}]
+pid: 5628
+hostname: DESKTOP-CD6QG1R
+
+2022-07-07 00:52:22,903 WARN 5628 [-/127.0.0.1/-/1ms POST /api/login] nodejs.UnprocessableEntityError: Validation Failed
+    at Object.throw (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa\lib\context.js:97:11)
+    at Object.validate (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-validate\app\extend\context.js:14:17)
+    at UserLoginController.userLogin (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\controller\userHandler.js:10:9)
+    at Object.callFn (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\middleware\responseData.js:2:9
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-compose\index.js:42:32)
+message: "Validation Failed"
+code: "invalid_param"
+errors: [{"message":"密码长度不正确","code":"无效","field":"password"}]
+pid: 5628
+hostname: DESKTOP-CD6QG1R
+
+2022-07-07 01:09:41,167 WARN 5628 [-/127.0.0.1/-/1ms POST /api/login] nodejs.UnprocessableEntityError: Validation Failed
+    at Object.throw (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa\lib\context.js:97:11)
+    at Object.validate (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-validate\app\extend\context.js:14:17)
+    at UserLoginController.userLogin (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\controller\userHandler.js:10:9)
+    at Object.callFn (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\middleware\responseData.js:2:9
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-compose\index.js:42:32)
+message: "Validation Failed"
+code: "invalid_param"
+errors: [{"message":" 字段丢失,您没有正确传递参数类型","field":"mobile","code":" 字段丢失,您没有正确传递该字段"},{"message":" 字段丢失,您没有正确传递参数类型","field":"code","code":" 字段丢失,您没有正确传递该字段"}]
+pid: 5628
+hostname: DESKTOP-CD6QG1R
+
+2022-07-07 01:10:06,025 WARN 5628 [-/127.0.0.1/-/0ms POST /api/login] nodejs.UnprocessableEntityError: Validation Failed
+    at Object.throw (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa\lib\context.js:97:11)
+    at Object.validate (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-validate\app\extend\context.js:14:17)
+    at UserLoginController.userLogin (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\controller\userHandler.js:10:9)
+    at Object.callFn (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\middleware\responseData.js:2:9
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-compose\index.js:42:32)
+message: "Validation Failed"
+code: "invalid_param"
+errors: [{"message":" 字段丢失,您没有正确传递参数类型","field":"mobile","code":" 字段丢失,您没有正确传递该字段"},{"message":" 字段丢失,您没有正确传递参数类型","field":"code","code":" 字段丢失,您没有正确传递该字段"}]
+pid: 5628
+hostname: DESKTOP-CD6QG1R
+
+2022-07-07 01:11:24,420 WARN 5628 [-/127.0.0.1/-/2ms POST /api/login] nodejs.UnprocessableEntityError: Validation Failed
+    at Object.throw (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa\lib\context.js:97:11)
+    at Object.validate (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-validate\app\extend\context.js:14:17)
+    at UserLoginController.userLogin (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\controller\userHandler.js:10:9)
+    at Object.callFn (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\middleware\responseData.js:2:9
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-compose\index.js:42:32)
+message: "Validation Failed"
+code: "invalid_param"
+errors: [{"message":" 字段丢失,您没有正确传递参数类型","field":"mobile","code":" 字段丢失,您没有正确传递该字段"},{"message":" 字段丢失,您没有正确传递参数类型","field":"code","code":" 字段丢失,您没有正确传递该字段"}]
+pid: 5628
+hostname: DESKTOP-CD6QG1R
+
+2022-07-07 01:12:40,428 WARN 5628 [-/127.0.0.1/-/1ms POST /api/login] nodejs.UnprocessableEntityError: Validation Failed
+    at Object.throw (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa\lib\context.js:97:11)
+    at Object.validate (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-validate\app\extend\context.js:14:17)
+    at UserLoginController.userLogin (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\controller\userHandler.js:10:9)
+    at Object.callFn (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\middleware\responseData.js:2:9
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-compose\index.js:42:32)
+message: "Validation Failed"
+code: "invalid_param"
+errors: [{"message":" 字段丢失,您没有正确传递参数类型","field":"mobile","code":" 字段丢失,您没有正确传递该字段"},{"message":" 字段丢失,您没有正确传递参数类型","field":"code","code":" 字段丢失,您没有正确传递该字段"}]
+pid: 5628
+hostname: DESKTOP-CD6QG1R
+
+2022-07-07 01:41:07,914 WARN 5628 [-/127.0.0.1/-/0ms POST /api/login] nodejs.UnprocessableEntityError: Validation Failed
+    at Object.throw (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa\lib\context.js:97:11)
+    at Object.validate (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-validate\app\extend\context.js:14:17)
+    at UserLoginController.userLogin (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\controller\userHandler.js:10:9)
+    at Object.callFn (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\middleware\responseData.js:2:9
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-compose\index.js:42:32)
+message: "Validation Failed"
+code: "invalid_param"
+errors: [{"message":"账户名的长度应该在8-20之间","code":"无效","field":"accountName"},{"message":"密码长度不正确","code":"无效","field":"password"}]
+pid: 5628
+hostname: DESKTOP-CD6QG1R
+
+2022-07-07 01:42:35,244 WARN 5628 [-/127.0.0.1/-/1ms POST /api/login] nodejs.UnprocessableEntityError: Validation Failed
+    at Object.throw (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa\lib\context.js:97:11)
+    at Object.validate (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-validate\app\extend\context.js:14:17)
+    at UserLoginController.userLogin (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\controller\userHandler.js:10:9)
+    at Object.callFn (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\middleware\responseData.js:2:9
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-compose\index.js:42:32)
+message: "Validation Failed"
+code: "invalid_param"
+errors: [{"message":"账户名的长度应该在8-20之间","code":"无效","field":"accountName"},{"message":"密码长度不正确","code":"无效","field":"password"}]
+pid: 5628
+hostname: DESKTOP-CD6QG1R
+
+2022-07-07 01:50:04,603 WARN 5628 [-/127.0.0.1/-/1ms POST /api/login] nodejs.UnprocessableEntityError: Validation Failed
+    at Object.throw (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa\lib\context.js:97:11)
+    at Object.validate (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-validate\app\extend\context.js:14:17)
+    at UserLoginController.userLogin (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\controller\userHandler.js:10:9)
+    at Object.callFn (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\middleware\responseData.js:2:9
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-compose\index.js:42:32)
+message: "Validation Failed"
+code: "invalid_param"
+errors: [{"message":"账户名的长度应该在8-20之间","code":"无效","field":"accountName"},{"message":"密码长度不正确","code":"无效","field":"password"}]
+pid: 5628
+hostname: DESKTOP-CD6QG1R
+
+2022-07-07 01:50:09,449 WARN 5628 [-/127.0.0.1/-/0ms POST /api/login] nodejs.UnprocessableEntityError: Validation Failed
+    at Object.throw (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa\lib\context.js:97:11)
+    at Object.validate (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-validate\app\extend\context.js:14:17)
+    at UserLoginController.userLogin (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\controller\userHandler.js:10:9)
+    at Object.callFn (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\middleware\responseData.js:2:9
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-compose\index.js:42:32)
+message: "Validation Failed"
+code: "invalid_param"
+errors: [{"message":"账户名的长度应该在8-20之间","code":"无效","field":"accountName"},{"message":"密码长度不正确","code":"无效","field":"password"}]
+pid: 5628
+hostname: DESKTOP-CD6QG1R
+
+2022-07-07 01:50:13,628 WARN 5628 [-/127.0.0.1/-/1ms POST /api/login] nodejs.UnprocessableEntityError: Validation Failed
+    at Object.throw (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa\lib\context.js:97:11)
+    at Object.validate (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-validate\app\extend\context.js:14:17)
+    at UserLoginController.userLogin (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\controller\userHandler.js:10:9)
+    at Object.callFn (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\middleware\responseData.js:2:9
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-compose\index.js:42:32)
+message: "Validation Failed"
+code: "invalid_param"
+errors: [{"message":"账户名的长度应该在8-20之间","code":"无效","field":"accountName"},{"message":"密码长度不正确","code":"无效","field":"password"}]
+pid: 5628
+hostname: DESKTOP-CD6QG1R
+
+2022-07-07 01:50:26,501 WARN 5628 [-/127.0.0.1/-/1ms POST /api/login] nodejs.UnprocessableEntityError: Validation Failed
+    at Object.throw (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa\lib\context.js:97:11)
+    at Object.validate (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-validate\app\extend\context.js:14:17)
+    at UserLoginController.userLogin (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\controller\userHandler.js:10:9)
+    at Object.callFn (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\middleware\responseData.js:2:9
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-compose\index.js:42:32)
+message: "Validation Failed"
+code: "invalid_param"
+errors: [{"message":"账户名的长度应该在8-20之间","code":"无效","field":"accountName"},{"message":"密码长度不正确","code":"无效","field":"password"}]
+pid: 5628
+hostname: DESKTOP-CD6QG1R
+
+2022-07-07 01:50:33,421 WARN 5628 [-/127.0.0.1/-/2ms POST /api/login] nodejs.UnprocessableEntityError: Validation Failed
+    at Object.throw (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa\lib\context.js:97:11)
+    at Object.validate (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-validate\app\extend\context.js:14:17)
+    at UserLoginController.userLogin (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\controller\userHandler.js:10:9)
+    at Object.callFn (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\middleware\responseData.js:2:9
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-compose\index.js:42:32)
+message: "Validation Failed"
+code: "invalid_param"
+errors: [{"message":"账户名的长度应该在8-20之间","code":"无效","field":"accountName"},{"message":"密码长度不正确","code":"无效","field":"password"}]
+pid: 5628
+hostname: DESKTOP-CD6QG1R
+
+2022-07-07 01:51:42,157 WARN 5628 [-/127.0.0.1/-/1ms POST /api/login] nodejs.UnprocessableEntityError: Validation Failed
+    at Object.throw (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa\lib\context.js:97:11)
+    at Object.validate (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-validate\app\extend\context.js:14:17)
+    at UserLoginController.userLogin (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\controller\userHandler.js:10:9)
+    at Object.callFn (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\middleware\responseData.js:2:9
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-compose\index.js:42:32)
+message: "Validation Failed"
+code: "invalid_param"
+errors: [{"message":"账户名的长度应该在8-20之间","code":"无效","field":"accountName"},{"message":"密码长度不正确","code":"无效","field":"password"}]
+pid: 5628
+hostname: DESKTOP-CD6QG1R
+
+2022-07-07 01:51:44,604 WARN 5628 [-/127.0.0.1/-/0ms POST /api/login] nodejs.UnprocessableEntityError: Validation Failed
+    at Object.throw (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa\lib\context.js:97:11)
+    at Object.validate (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-validate\app\extend\context.js:14:17)
+    at UserLoginController.userLogin (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\controller\userHandler.js:10:9)
+    at Object.callFn (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\middleware\responseData.js:2:9
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-compose\index.js:42:32)
+message: "Validation Failed"
+code: "invalid_param"
+errors: [{"message":"账户名的长度应该在8-20之间","code":"无效","field":"accountName"},{"message":"密码长度不正确","code":"无效","field":"password"}]
+pid: 5628
+hostname: DESKTOP-CD6QG1R
+
+2022-07-07 01:51:47,943 WARN 5628 [-/127.0.0.1/-/0ms POST /api/login] nodejs.UnprocessableEntityError: Validation Failed
+    at Object.throw (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa\lib\context.js:97:11)
+    at Object.validate (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-validate\app\extend\context.js:14:17)
+    at UserLoginController.userLogin (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\controller\userHandler.js:10:9)
+    at Object.callFn (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\middleware\responseData.js:2:9
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-compose\index.js:42:32)
+message: "Validation Failed"
+code: "invalid_param"
+errors: [{"message":"账户名的长度应该在8-20之间","code":"无效","field":"accountName"},{"message":"密码长度不正确","code":"无效","field":"password"}]
+pid: 5628
+hostname: DESKTOP-CD6QG1R
+
+2022-07-07 01:51:51,397 WARN 5628 [-/127.0.0.1/-/0ms POST /api/login] nodejs.UnprocessableEntityError: Validation Failed
+    at Object.throw (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa\lib\context.js:97:11)
+    at Object.validate (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-validate\app\extend\context.js:14:17)
+    at UserLoginController.userLogin (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\controller\userHandler.js:10:9)
+    at Object.callFn (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\middleware\responseData.js:2:9
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-compose\index.js:42:32)
+message: "Validation Failed"
+code: "invalid_param"
+errors: [{"message":"账户名的长度应该在8-20之间","code":"无效","field":"accountName"},{"message":"密码长度不正确","code":"无效","field":"password"}]
+pid: 5628
+hostname: DESKTOP-CD6QG1R
+
+2022-07-07 01:51:55,478 WARN 5628 [-/127.0.0.1/-/0ms POST /api/login] nodejs.UnprocessableEntityError: Validation Failed
+    at Object.throw (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa\lib\context.js:97:11)
+    at Object.validate (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-validate\app\extend\context.js:14:17)
+    at UserLoginController.userLogin (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\controller\userHandler.js:10:9)
+    at Object.callFn (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\middleware\responseData.js:2:9
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-compose\index.js:42:32)
+message: "Validation Failed"
+code: "invalid_param"
+errors: [{"message":"账户名的长度应该在8-20之间","code":"无效","field":"accountName"},{"message":"密码长度不正确","code":"无效","field":"password"}]
+pid: 5628
+hostname: DESKTOP-CD6QG1R
+
+2022-07-07 01:52:00,462 WARN 5628 [-/127.0.0.1/-/0ms POST /api/login] nodejs.UnprocessableEntityError: Validation Failed
+    at Object.throw (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa\lib\context.js:97:11)
+    at Object.validate (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-validate\app\extend\context.js:14:17)
+    at UserLoginController.userLogin (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\controller\userHandler.js:10:9)
+    at Object.callFn (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\middleware\responseData.js:2:9
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-compose\index.js:42:32)
+message: "Validation Failed"
+code: "invalid_param"
+errors: [{"message":"账户名的长度应该在8-20之间","code":"无效","field":"accountName"},{"message":"密码长度不正确","code":"无效","field":"password"}]
+pid: 5628
+hostname: DESKTOP-CD6QG1R
+
+2022-07-07 01:52:02,408 WARN 5628 [-/127.0.0.1/-/1ms POST /api/login] nodejs.UnprocessableEntityError: Validation Failed
+    at Object.throw (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa\lib\context.js:97:11)
+    at Object.validate (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-validate\app\extend\context.js:14:17)
+    at UserLoginController.userLogin (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\controller\userHandler.js:10:9)
+    at Object.callFn (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\middleware\responseData.js:2:9
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-compose\index.js:42:32)
+message: "Validation Failed"
+code: "invalid_param"
+errors: [{"message":"账户名的长度应该在8-20之间","code":"无效","field":"accountName"},{"message":"密码长度不正确","code":"无效","field":"password"}]
+pid: 5628
+hostname: DESKTOP-CD6QG1R
+
+2022-07-07 01:52:05,305 WARN 5628 [-/127.0.0.1/-/0ms POST /api/login] nodejs.UnprocessableEntityError: Validation Failed
+    at Object.throw (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa\lib\context.js:97:11)
+    at Object.validate (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-validate\app\extend\context.js:14:17)
+    at UserLoginController.userLogin (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\controller\userHandler.js:10:9)
+    at Object.callFn (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\middleware\responseData.js:2:9
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-compose\index.js:42:32)
+message: "Validation Failed"
+code: "invalid_param"
+errors: [{"message":"账户名的长度应该在8-20之间","code":"无效","field":"accountName"},{"message":"密码长度不正确","code":"无效","field":"password"}]
+pid: 5628
+hostname: DESKTOP-CD6QG1R
+
+2022-07-07 01:52:11,097 WARN 5628 [-/127.0.0.1/-/1ms POST /api/login] nodejs.UnprocessableEntityError: Validation Failed
+    at Object.throw (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa\lib\context.js:97:11)
+    at Object.validate (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-validate\app\extend\context.js:14:17)
+    at UserLoginController.userLogin (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\controller\userHandler.js:10:9)
+    at Object.callFn (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\middleware\responseData.js:2:9
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-compose\index.js:42:32)
+message: "Validation Failed"
+code: "invalid_param"
+errors: [{"message":"账户名的长度应该在8-20之间","code":"无效","field":"accountName"},{"message":"密码长度不正确","code":"无效","field":"password"}]
+pid: 5628
+hostname: DESKTOP-CD6QG1R
+
+2022-07-07 02:20:29,804 WARN 5628 [-/127.0.0.1/-/1ms POST /api/login] nodejs.UnprocessableEntityError: Validation Failed
+    at Object.throw (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa\lib\context.js:97:11)
+    at Object.validate (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-validate\app\extend\context.js:14:17)
+    at UserLoginController.userLogin (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\controller\userHandler.js:10:9)
+    at Object.callFn (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\middleware\responseData.js:2:9
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-compose\index.js:42:32)
+message: "Validation Failed"
+code: "invalid_param"
+errors: [{"message":"账户名的长度应该在8-20之间","code":"无效","field":"accountName"},{"message":"密码长度不正确","code":"无效","field":"password"}]
+pid: 5628
+hostname: DESKTOP-CD6QG1R
+
+2022-07-07 03:02:39,465 WARN 5628 [-/127.0.0.1/-/2ms POST /api/login] nodejs.UnprocessableEntityError: Validation Failed
+    at Object.throw (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa\lib\context.js:97:11)
+    at Object.validate (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-validate\app\extend\context.js:14:17)
+    at UserLoginController.userLogin (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\controller\userHandler.js:10:9)
+    at Object.callFn (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\middleware\responseData.js:2:9
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-compose\index.js:42:32)
+message: "Validation Failed"
+code: "invalid_param"
+errors: [{"message":"账户名的长度应该在8-20之间","code":"无效","field":"accountName"},{"message":"密码长度不正确","code":"无效","field":"password"}]
+pid: 5628
+hostname: DESKTOP-CD6QG1R
+
+2022-07-07 03:40:23,863 ERROR 5628 [-/127.0.0.1/-/1ms GET /api/getCod?] nodejs.Error: 
+    at Function.throw (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\extend\application.js:30:11)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\middleware\responseData.js:4:24
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-bodyparser\index.js:95:5)
+    at async C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-static-cache\index.js:41:56
+    at async notfound (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg\app\middleware\meta.js:18:5)
+code: 404
+pid: 5628
+hostname: DESKTOP-CD6QG1R
+
+2022-07-07 03:45:22,834 ERROR 5628 [-/127.0.0.1/-/1ms GET /api/getCod?number=13552752517] nodejs.Error: 
+    at Function.throw (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\extend\application.js:30:11)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\middleware\responseData.js:4:24
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-bodyparser\index.js:95:5)
+    at async C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-static-cache\index.js:41:56
+    at async notfound (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg\app\middleware\meta.js:18:5)
+code: 404
+pid: 5628
+hostname: DESKTOP-CD6QG1R
+
+2022-07-07 03:46:44,841 ERROR 5628 [-/127.0.0.1/-/1ms GET /api/getCod?number=13552752517] nodejs.Error: 
+    at Function.throw (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\extend\application.js:30:11)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\middleware\responseData.js:4:24
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-bodyparser\index.js:95:5)
+    at async C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-static-cache\index.js:41:56
+    at async notfound (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg\app\middleware\meta.js:18:5)
+code: 404
+pid: 5628
+hostname: DESKTOP-CD6QG1R
+
+2022-07-07 03:47:27,525 ERROR 5628 [-/127.0.0.1/-/1ms GET /api/getCod?number=13085271091] nodejs.Error: 
+    at Function.throw (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\extend\application.js:30:11)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\middleware\responseData.js:4:24
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-bodyparser\index.js:95:5)
+    at async C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-static-cache\index.js:41:56
+    at async notfound (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg\app\middleware\meta.js:18:5)
+code: 404
+pid: 5628
+hostname: DESKTOP-CD6QG1R
+
+2022-07-07 03:48:12,809 WARN 5628 [-/127.0.0.1/-/2ms GET /api/getCode?number=13552752517] nodejs.UnprocessableEntityError: Validation Failed
+    at Object.throw (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa\lib\context.js:97:11)
+    at Object.validate (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-validate\app\extend\context.js:14:17)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\middleware\checkUserExists.js:4:7
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\middleware\responseData.js:2:9
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-compose\index.js:42:32)
+    at i18n (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-compose\index.js:42:32)
+message: "Validation Failed"
+code: "invalid_param"
+errors: [{"message":" 字段丢失,您没有正确传递参数类型","field":"mobile","code":" 字段丢失,您没有正确传递该字段"}]
+pid: 5628
+hostname: DESKTOP-CD6QG1R
+
+2022-07-07 03:49:35,856 WARN 5628 [-/127.0.0.1/-/0ms GET /api/getCode?number=13552752517] nodejs.UnprocessableEntityError: Validation Failed
+    at Object.throw (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa\lib\context.js:97:11)
+    at Object.validate (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-validate\app\extend\context.js:14:17)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\middleware\checkUserExists.js:4:7
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\middleware\responseData.js:2:9
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-compose\index.js:42:32)
+    at i18n (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-compose\index.js:42:32)
+message: "Validation Failed"
+code: "invalid_param"
+errors: [{"message":" 字段丢失,您没有正确传递参数类型","field":"mobile","code":" 字段丢失,您没有正确传递该字段"}]
+pid: 5628
+hostname: DESKTOP-CD6QG1R
+
+2022-07-07 03:52:40,446 WARN 5628 [-/127.0.0.1/-/0ms GET /api/getCode?number=13552752517] nodejs.UnprocessableEntityError: Validation Failed
+    at Object.throw (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa\lib\context.js:97:11)
+    at Object.validate (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-validate\app\extend\context.js:14:17)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\middleware\checkUserExists.js:4:7
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\middleware\responseData.js:2:9
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-compose\index.js:42:32)
+    at i18n (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-compose\index.js:42:32)
+message: "Validation Failed"
+code: "invalid_param"
+errors: [{"message":" 字段丢失,您没有正确传递参数类型","field":"mobile","code":" 字段丢失,您没有正确传递该字段"}]
+pid: 5628
+hostname: DESKTOP-CD6QG1R
+
+2022-07-07 14:03:46,955 WARN 10588 [-/127.0.0.1/-/14ms POST /api/login] nodejs.UnprocessableEntityError: Validation Failed
+    at Object.throw (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa\lib\context.js:97:11)
+    at Object.validate (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-validate\app\extend\context.js:14:17)
+    at UserLoginController.userLogin (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\controller\userHandler.js:10:9)
+    at Object.callFn (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\middleware\responseData.js:2:9
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-compose\index.js:42:32)
+message: "Validation Failed"
+code: "invalid_param"
+errors: [{"message":"密码长度不正确","code":"无效","field":"password"}]
+pid: 10588
+hostname: DESKTOP-CD6QG1R
+
+2022-07-07 16:09:34,053 WARN 10588 [-/127.0.0.1/-/3ms POST /api/resetPassword] nodejs.UnprocessableEntityError: Validation Failed
+    at Object.throw (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa\lib\context.js:97:11)
+    at Object.validate (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-validate\app\extend\context.js:14:17)
+    at UserLoginController.resetPassword (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\controller\userHandler.js:54:9)
+    at Object.callFn (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\middleware\responseData.js:2:9
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-compose\index.js:42:32)
+message: "Validation Failed"
+code: "invalid_param"
+errors: [{"message":"密码长度不正确","code":"无效","field":"newPassword"}]
+pid: 10588
+hostname: DESKTOP-CD6QG1R
+
+2022-07-07 18:24:00,012 ERROR 10588 [-/127.0.0.1/-/1ms GET /api/queryLoginStatus?] nodejs.JsonWebTokenError: jwt malformed
+    at Object.module.exports [as verify] (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\jsonwebtoken\verify.js:63:17)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\middleware\auth.js:6:22
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\middleware\responseData.js:2:9
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-compose\index.js:42:32)
+    at i18n (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-compose\index.js:42:32)
+name: "JsonWebTokenError"
+message: "jwt malformed"
+pid: 10588
+hostname: DESKTOP-CD6QG1R
+
+2022-07-07 18:24:00,016 ERROR 10588 [-/127.0.0.1/-/6ms GET /api/queryLoginStatus?] nodejs.Error: 
+    at Function.throw (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\extend\application.js:30:11)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\middleware\auth.js:10:24
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\middleware\responseData.js:2:9
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-compose\index.js:42:32)
+    at i18n (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-compose\index.js:42:32)
+code: 401
+pid: 10588
+hostname: DESKTOP-CD6QG1R
+
+2022-07-07 18:34:07,169 ERROR 10588 [-/127.0.0.1/-/0ms GET /api/queryLoginStatus?] nodejs.JsonWebTokenError: jwt malformed
+    at Object.module.exports [as verify] (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\jsonwebtoken\verify.js:63:17)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\middleware\auth.js:6:22
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\middleware\responseData.js:2:9
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-compose\index.js:42:32)
+    at i18n (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-compose\index.js:42:32)
+name: "JsonWebTokenError"
+message: "jwt malformed"
+pid: 10588
+hostname: DESKTOP-CD6QG1R
+
+2022-07-07 18:34:07,171 ERROR 10588 [-/127.0.0.1/-/4ms GET /api/queryLoginStatus?] nodejs.Error: 
+    at Function.throw (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\extend\application.js:30:11)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\middleware\auth.js:10:24
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\middleware\responseData.js:2:9
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-compose\index.js:42:32)
+    at i18n (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-compose\index.js:42:32)
+code: 401
+pid: 10588
+hostname: DESKTOP-CD6QG1R
+

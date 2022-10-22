@@ -1,0 +1,18 @@
+2022-07-15 00:43:20,452 ERROR 2080 [-/127.0.0.1/-/1ms GET /api/getStaff] nodejs.Error: 
+    at Function.throw (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\extend\application.js:30:11)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\middleware\responseData.js:4:24
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-bodyparser\index.js:95:5)
+    at async C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-static-cache\index.js:41:56
+    at async notfound (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg\app\middleware\meta.js:18:5)
+code: 404
+pid: 2080
+hostname: DESKTOP-CD6QG1R
+

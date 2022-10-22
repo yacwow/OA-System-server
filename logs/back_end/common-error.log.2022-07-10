@@ -1,0 +1,22 @@
+2022-07-10 01:07:48,023 ERROR 16856 [egg-mongoose] mongodb://123.56.119.225:26030/person_admin disconnected
+2022-07-10 22:39:36,823 ERROR 13744 [-/127.0.0.1/-/7ms GET /api/getRouteList?] nodejs.TypeError: Cannot read properties of undefined (reading 'identity')
+    at UserService.getRouteList (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\service\userHandler.js:41:40)
+    at UserLoginController.getRouteList (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\controller\userHandler.js:32:46)
+    at Object.callFn (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\middleware\auth.js:12:9
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-compose\index.js:42:32)
+
+pid: 13744
+hostname: DESKTOP-CD6QG1R
+

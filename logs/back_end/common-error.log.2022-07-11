@@ -1,0 +1,208 @@
+2022-07-11 01:23:40,651 ERROR 13744 [egg-mongoose] mongodb://123.56.119.225:26030/person_admin disconnected
+2022-07-11 02:33:18,838 ERROR 13744 [egg-mongoose] mongodb://123.56.119.225:26030/person_admin disconnected
+2022-07-11 04:04:22,864 ERROR 13744 [egg-mongoose] mongodb://123.56.119.225:26030/person_admin disconnected
+2022-07-11 18:38:14,935 ERROR 2364 [egg-mongoose] mongodb://123.56.119.225:26030/person_admin disconnected
+2022-07-11 19:06:33,859 ERROR 2364 [-/127.0.0.1/-/2ms GET /api/staffDetail/[object%20Object]?] nodejs.CastError: Cast to ObjectId failed for value "[object Object]" (type string) at path "_id" for model "users"
+    at model.Query.exec (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\mongoose\lib\query.js:4592:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+messageFormat: undefined
+stringValue: "\"[object Object]\""
+kind: "ObjectId"
+value: "[object Object]"
+path: "_id"
+reason: {}
+valueType: "string"
+pid: 2364
+hostname: DESKTOP-CD6QG1R
+
+2022-07-11 19:06:49,483 ERROR 2364 [-/127.0.0.1/-/0ms GET /api/staffDetail/[object%20Object]?] nodejs.CastError: Cast to ObjectId failed for value "[object Object]" (type string) at path "_id" for model "users"
+    at model.Query.exec (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\mongoose\lib\query.js:4592:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+messageFormat: undefined
+stringValue: "\"[object Object]\""
+kind: "ObjectId"
+value: "[object Object]"
+path: "_id"
+reason: {}
+valueType: "string"
+pid: 2364
+hostname: DESKTOP-CD6QG1R
+
+2022-07-11 19:08:04,184 ERROR 2364 [-/127.0.0.1/-/1ms GET /api/staffDetail/[object%20Object]?] nodejs.CastError: Cast to ObjectId failed for value "[object Object]" (type string) at path "_id" for model "users"
+    at model.Query.exec (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\mongoose\lib\query.js:4592:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+messageFormat: undefined
+stringValue: "\"[object Object]\""
+kind: "ObjectId"
+value: "[object Object]"
+path: "_id"
+reason: {}
+valueType: "string"
+pid: 2364
+hostname: DESKTOP-CD6QG1R
+
+2022-07-11 19:10:10,082 ERROR 2364 [-/127.0.0.1/-/1ms GET /api/staffDetail/[object%20Object]?] nodejs.CastError: Cast to ObjectId failed for value "[object Object]" (type string) at path "_id" for model "users"
+    at model.Query.exec (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\mongoose\lib\query.js:4592:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+messageFormat: undefined
+stringValue: "\"[object Object]\""
+kind: "ObjectId"
+value: "[object Object]"
+path: "_id"
+reason: {}
+valueType: "string"
+pid: 2364
+hostname: DESKTOP-CD6QG1R
+
+2022-07-11 19:10:13,015 ERROR 2364 [-/127.0.0.1/-/0ms GET /api/staffDetail/[object%20Object]?] nodejs.JsonWebTokenError: jwt must be provided
+    at Object.module.exports [as verify] (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\jsonwebtoken\verify.js:53:17)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\middleware\auth.js:6:22
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\middleware\responseData.js:2:9
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-compose\index.js:42:32)
+    at i18n (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-compose\index.js:42:32)
+name: "JsonWebTokenError"
+message: "jwt must be provided"
+pid: 2364
+hostname: DESKTOP-CD6QG1R
+
+2022-07-11 19:10:13,019 ERROR 2364 [-/127.0.0.1/-/5ms GET /api/staffDetail/[object%20Object]?] nodejs.Error: 
+    at Function.throw (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\extend\application.js:30:11)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\middleware\auth.js:10:24
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\middleware\responseData.js:2:9
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-compose\index.js:42:32)
+    at i18n (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-compose\index.js:42:32)
+code: 401
+pid: 2364
+hostname: DESKTOP-CD6QG1R
+
+2022-07-11 19:11:17,473 ERROR 2364 [-/127.0.0.1/-/2ms GET /api/staffDetail/[object%20Object]?] nodejs.CastError: Cast to ObjectId failed for value "[object Object]" (type string) at path "_id" for model "users"
+    at model.Query.exec (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\mongoose\lib\query.js:4592:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+messageFormat: undefined
+stringValue: "\"[object Object]\""
+kind: "ObjectId"
+value: "[object Object]"
+path: "_id"
+reason: {}
+valueType: "string"
+pid: 2364
+hostname: DESKTOP-CD6QG1R
+
+2022-07-11 19:11:22,975 ERROR 2364 [-/127.0.0.1/-/0ms GET /api/staffDetail/[object%20Object]?] nodejs.JsonWebTokenError: jwt must be provided
+    at Object.module.exports [as verify] (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\jsonwebtoken\verify.js:53:17)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\middleware\auth.js:6:22
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\middleware\responseData.js:2:9
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-compose\index.js:42:32)
+    at i18n (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-compose\index.js:42:32)
+name: "JsonWebTokenError"
+message: "jwt must be provided"
+pid: 2364
+hostname: DESKTOP-CD6QG1R
+
+2022-07-11 19:11:22,978 ERROR 2364 [-/127.0.0.1/-/3ms GET /api/staffDetail/[object%20Object]?] nodejs.Error: 
+    at Function.throw (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\extend\application.js:30:11)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\middleware\auth.js:10:24
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\middleware\responseData.js:2:9
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-compose\index.js:42:32)
+    at i18n (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-compose\index.js:42:32)
+code: 401
+pid: 2364
+hostname: DESKTOP-CD6QG1R
+
+2022-07-11 19:14:04,199 ERROR 2364 [egg-mongoose] mongodb://123.56.119.225:26030/person_admin disconnected
+2022-07-11 21:17:27,574 ERROR 2364 [-/127.0.0.1/-/204ms GET /api/staffDetail/62c53b7f1076cd00ff119be2?] nodejs.TypeError: Cannot destructure property '_doc' of '(intermediate value)' as it is null.
+    at StaffService.getStaffDetail (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\service\staff.js:80:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async StaffController.staffDetail (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\controller\staff.js:38:16)
+    at async C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\middleware\auth.js:12:3
+    at async C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\middleware\responseData.js:2:3
+    at async C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-bodyparser\index.js:95:5)
+    at async C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-static-cache\index.js:41:56
+    at async notfound (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg\app\middleware\meta.js:18:5)
+
+pid: 2364
+hostname: DESKTOP-CD6QG1R
+
+2022-07-11 23:08:42,899 ERROR 2364 [-/127.0.0.1/-/3ms GET /api/getRouteList?] nodejs.TypeError: Cannot read properties of undefined (reading 'identity')
+    at UserService.getRouteList (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\service\userHandler.js:41:40)
+    at UserLoginController.getRouteList (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\controller\userHandler.js:32:46)
+    at Object.callFn (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\middleware\auth.js:12:9
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-compose\index.js:42:32)
+
+pid: 2364
+hostname: DESKTOP-CD6QG1R
+

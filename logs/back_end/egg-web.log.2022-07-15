@@ -1,0 +1,177 @@
+2022-07-15 00:00:01,021 INFO 2172 [egg-logrotator] app logger reload: got log-reload message
+2022-07-15 00:03:26,654 ERROR 2172 nodejs.TypeError: Cannot read properties of undefined (reading 'children') (uncaughtException throw 1 times on pid:2172)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\service\department.js:102:33
+    at Array.forEach (<anonymous>)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\service\department.js:101:23
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\mongoose\lib\model.js:5074:18
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+
+pid: 2172
+hostname: DESKTOP-CD6QG1R
+
+2022-07-15 00:04:06,843 INFO 11212 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\Administrator\\Desktop\\frontend-project-oa-master\\完整版代码前端+后端\\server\\logs\\back_end","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"back_end-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-07-15 00:04:06,874 INFO 11212 [egg-multipart] stream mode enable
+2022-07-15 00:04:07,155 INFO 11212 [egg-mongoose] connecting mongodb://123.56.119.225:26030/person_admin
+2022-07-15 00:04:07,266 INFO 11212 [egg-static] starting static serve /public/ -> C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\public
+2022-07-15 00:04:07,267 WARN 11212 [egg-security] Please use `config.security.csrf = { enable: false }` instead of `config.security.csrf = false`
+2022-07-15 00:04:07,270 INFO 11212 [egg-security] use methodnoallow middleware
+2022-07-15 00:04:07,271 INFO 11212 [egg-security] use noopen middleware
+2022-07-15 00:04:07,271 INFO 11212 [egg-security] use nosniff middleware
+2022-07-15 00:04:07,272 INFO 11212 [egg-security] use xssProtection middleware
+2022-07-15 00:04:07,272 INFO 11212 [egg-security] use xframe middleware
+2022-07-15 00:04:07,273 INFO 11212 [egg-security] use dta middleware
+2022-07-15 00:04:07,273 INFO 11212 [egg-security] compose 6 middlewares into one security middleware
+2022-07-15 00:04:07,299 INFO 11212 [egg:core] dump config after load, 6ms
+2022-07-15 00:04:07,302 INFO 11212 [egg-mongoose] starting...
+2022-07-15 00:04:07,331 INFO 11212 [egg-watcher:application] watcher start success
+2022-07-15 00:04:20,388 INFO 11212 [egg-mongoose] mongodb://123.56.119.225:26030/person_admin connected successfully
+2022-07-15 00:04:20,389 INFO 11212 [egg-mongoose] instance[0] start successfully
+2022-07-15 00:04:20,395 INFO 11212 [egg:core] dump config after ready, 4ms
+2022-07-15 00:31:05,268 ERROR 11212 nodejs.TypeError: Cannot read properties of undefined (reading 'children') (uncaughtException throw 1 times on pid:11212)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\service\department.js:108:17
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\mongoose\lib\model.js:5074:18
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+
+pid: 11212
+hostname: DESKTOP-CD6QG1R
+
+2022-07-15 00:31:52,819 INFO 2080 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\Administrator\\Desktop\\frontend-project-oa-master\\完整版代码前端+后端\\server\\logs\\back_end","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"back_end-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-07-15 00:31:52,840 INFO 2080 [egg-multipart] stream mode enable
+2022-07-15 00:31:53,078 INFO 2080 [egg-mongoose] connecting mongodb://123.56.119.225:26030/person_admin
+2022-07-15 00:31:53,187 INFO 2080 [egg-static] starting static serve /public/ -> C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\public
+2022-07-15 00:31:53,188 WARN 2080 [egg-security] Please use `config.security.csrf = { enable: false }` instead of `config.security.csrf = false`
+2022-07-15 00:31:53,190 INFO 2080 [egg-security] use methodnoallow middleware
+2022-07-15 00:31:53,190 INFO 2080 [egg-security] use noopen middleware
+2022-07-15 00:31:53,191 INFO 2080 [egg-security] use nosniff middleware
+2022-07-15 00:31:53,191 INFO 2080 [egg-security] use xssProtection middleware
+2022-07-15 00:31:53,192 INFO 2080 [egg-security] use xframe middleware
+2022-07-15 00:31:53,192 INFO 2080 [egg-security] use dta middleware
+2022-07-15 00:31:53,192 INFO 2080 [egg-security] compose 6 middlewares into one security middleware
+2022-07-15 00:31:53,209 INFO 2080 [egg:core] dump config after load, 4ms
+2022-07-15 00:31:53,213 INFO 2080 [egg-mongoose] starting...
+2022-07-15 00:31:53,245 INFO 2080 [egg-watcher:application] watcher start success
+2022-07-15 00:31:57,341 INFO 2080 [egg-mongoose] mongodb://123.56.119.225:26030/person_admin connected successfully
+2022-07-15 00:31:57,342 INFO 2080 [egg-mongoose] instance[0] start successfully
+2022-07-15 00:31:57,350 INFO 2080 [egg:core] dump config after ready, 6ms
+2022-07-15 03:15:27,476 INFO 7568 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\Administrator\\Desktop\\frontend-project-oa-master\\完整版代码前端+后端\\server\\logs\\back_end","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"back_end-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-07-15 03:15:27,497 INFO 7568 [egg-multipart] stream mode enable
+2022-07-15 03:15:27,817 INFO 7568 [egg-mongoose] connecting mongodb://123.56.119.225:26030/person_admin
+2022-07-15 03:15:27,961 INFO 7568 [egg-static] starting static serve /public/ -> C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\public
+2022-07-15 03:15:27,962 WARN 7568 [egg-security] Please use `config.security.csrf = { enable: false }` instead of `config.security.csrf = false`
+2022-07-15 03:15:27,964 INFO 7568 [egg-security] use methodnoallow middleware
+2022-07-15 03:15:27,964 INFO 7568 [egg-security] use noopen middleware
+2022-07-15 03:15:27,965 INFO 7568 [egg-security] use nosniff middleware
+2022-07-15 03:15:27,965 INFO 7568 [egg-security] use xssProtection middleware
+2022-07-15 03:15:27,965 INFO 7568 [egg-security] use xframe middleware
+2022-07-15 03:15:27,966 INFO 7568 [egg-security] use dta middleware
+2022-07-15 03:15:27,966 INFO 7568 [egg-security] compose 6 middlewares into one security middleware
+2022-07-15 03:15:27,983 INFO 7568 [egg:core] dump config after load, 4ms
+2022-07-15 03:15:27,987 INFO 7568 [egg-mongoose] starting...
+2022-07-15 03:15:28,021 INFO 7568 [egg-watcher:application] watcher start success
+2022-07-15 03:15:28,263 INFO 3500 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\Administrator\\Desktop\\frontend-project-oa-master\\完整版代码前端+后端\\server\\logs\\back_end","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"back_end-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-07-15 03:15:28,284 INFO 3500 [egg-multipart] stream mode enable
+2022-07-15 03:15:28,523 INFO 3500 [egg-mongoose] connecting mongodb://123.56.119.225:26030/person_admin
+2022-07-15 03:15:28,626 INFO 3500 [egg-static] starting static serve /public/ -> C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\public
+2022-07-15 03:15:28,627 WARN 3500 [egg-security] Please use `config.security.csrf = { enable: false }` instead of `config.security.csrf = false`
+2022-07-15 03:15:28,628 INFO 3500 [egg-security] use methodnoallow middleware
+2022-07-15 03:15:28,629 INFO 3500 [egg-security] use noopen middleware
+2022-07-15 03:15:28,629 INFO 3500 [egg-security] use nosniff middleware
+2022-07-15 03:15:28,629 INFO 3500 [egg-security] use xssProtection middleware
+2022-07-15 03:15:28,630 INFO 3500 [egg-security] use xframe middleware
+2022-07-15 03:15:28,630 INFO 3500 [egg-security] use dta middleware
+2022-07-15 03:15:28,630 INFO 3500 [egg-security] compose 6 middlewares into one security middleware
+2022-07-15 03:15:28,645 INFO 3500 [egg:core] dump config after load, 4ms
+2022-07-15 03:15:28,647 INFO 3500 [egg-mongoose] starting...
+2022-07-15 03:15:28,668 INFO 3500 [egg-watcher:application] watcher start success
+2022-07-15 03:15:30,093 INFO 7568 [egg-mongoose] mongodb://123.56.119.225:26030/person_admin connected successfully
+2022-07-15 03:15:30,094 INFO 7568 [egg-mongoose] instance[0] start successfully
+2022-07-15 03:15:30,101 INFO 7568 [egg:core] dump config after ready, 6ms
+2022-07-15 03:15:32,500 INFO 3500 [egg-mongoose] mongodb://123.56.119.225:26030/person_admin connected successfully
+2022-07-15 03:15:32,501 INFO 3500 [egg-mongoose] instance[0] start successfully
+2022-07-15 03:15:32,507 INFO 3500 [egg:core] dump config after ready, 5ms
+2022-07-15 03:15:33,931 INFO 4352 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\Administrator\\Desktop\\frontend-project-oa-master\\完整版代码前端+后端\\server\\logs\\back_end","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"back_end-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-07-15 03:15:33,955 INFO 4352 [egg-multipart] stream mode enable
+2022-07-15 03:15:34,248 INFO 4352 [egg-mongoose] connecting mongodb://123.56.119.225:26030/person_admin
+2022-07-15 03:15:34,402 INFO 4352 [egg-static] starting static serve /public/ -> C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\public
+2022-07-15 03:15:34,403 WARN 4352 [egg-security] Please use `config.security.csrf = { enable: false }` instead of `config.security.csrf = false`
+2022-07-15 03:15:34,406 INFO 4352 [egg-security] use methodnoallow middleware
+2022-07-15 03:15:34,406 INFO 4352 [egg-security] use noopen middleware
+2022-07-15 03:15:34,407 INFO 4352 [egg-security] use nosniff middleware
+2022-07-15 03:15:34,407 INFO 4352 [egg-security] use xssProtection middleware
+2022-07-15 03:15:34,408 INFO 4352 [egg-security] use xframe middleware
+2022-07-15 03:15:34,408 INFO 4352 [egg-security] use dta middleware
+2022-07-15 03:15:34,408 INFO 4352 [egg-security] compose 6 middlewares into one security middleware
+2022-07-15 03:15:34,426 INFO 4352 [egg:core] dump config after load, 5ms
+2022-07-15 03:15:34,428 INFO 4352 [egg-mongoose] starting...
+2022-07-15 03:15:34,457 INFO 4352 [egg-watcher:application] watcher start success
+2022-07-15 03:15:36,916 INFO 4352 [egg-mongoose] mongodb://123.56.119.225:26030/person_admin connected successfully
+2022-07-15 03:15:36,917 INFO 4352 [egg-mongoose] instance[0] start successfully
+2022-07-15 03:15:36,924 INFO 4352 [egg:core] dump config after ready, 6ms
+2022-07-15 04:30:00,011 INFO 4352 [-/127.0.0.1/-/0ms SCHEDULE /__schedule?path=C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&disable=false&immediate=false] [egg-multipart:CleanTmpdir] start clean tmpdir: "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\egg-multipart-tmp\\back_end"
+2022-07-15 04:30:00,016 INFO 4352 [-/127.0.0.1/-/5ms SCHEDULE /__schedule?path=C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&disable=false&immediate=false] [egg-multipart:CleanTmpdir] end
+2022-07-15 13:38:17,638 INFO 19652 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\Administrator\\Desktop\\frontend-project-oa-master\\完整版代码前端+后端\\server\\logs\\back_end","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"back_end-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-07-15 13:38:17,660 INFO 19652 [egg-multipart] stream mode enable
+2022-07-15 13:38:18,006 INFO 19652 [egg-mongoose] connecting mongodb://123.56.119.225:26030/person_admin
+2022-07-15 13:38:18,200 INFO 19652 [egg-static] starting static serve /public/ -> C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\public
+2022-07-15 13:38:18,201 WARN 19652 [egg-security] Please use `config.security.csrf = { enable: false }` instead of `config.security.csrf = false`
+2022-07-15 13:38:18,204 INFO 19652 [egg-security] use methodnoallow middleware
+2022-07-15 13:38:18,205 INFO 19652 [egg-security] use noopen middleware
+2022-07-15 13:38:18,206 INFO 19652 [egg-security] use nosniff middleware
+2022-07-15 13:38:18,206 INFO 19652 [egg-security] use xssProtection middleware
+2022-07-15 13:38:18,207 INFO 19652 [egg-security] use xframe middleware
+2022-07-15 13:38:18,207 INFO 19652 [egg-security] use dta middleware
+2022-07-15 13:38:18,208 INFO 19652 [egg-security] compose 6 middlewares into one security middleware
+2022-07-15 13:38:18,237 INFO 19652 [egg:core] dump config after load, 8ms
+2022-07-15 13:38:18,240 INFO 19652 [egg-mongoose] starting...
+2022-07-15 13:38:18,284 INFO 19652 [egg-watcher:application] watcher start success
+2022-07-15 13:38:18,509 INFO 11328 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\Administrator\\Desktop\\frontend-project-oa-master\\完整版代码前端+后端\\server\\logs\\back_end","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"back_end-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-07-15 13:38:18,535 INFO 11328 [egg-multipart] stream mode enable
+2022-07-15 13:38:18,759 INFO 11328 [egg-mongoose] connecting mongodb://123.56.119.225:26030/person_admin
+2022-07-15 13:38:18,899 INFO 11328 [egg-static] starting static serve /public/ -> C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\public
+2022-07-15 13:38:18,900 WARN 11328 [egg-security] Please use `config.security.csrf = { enable: false }` instead of `config.security.csrf = false`
+2022-07-15 13:38:18,903 INFO 11328 [egg-security] use methodnoallow middleware
+2022-07-15 13:38:18,903 INFO 11328 [egg-security] use noopen middleware
+2022-07-15 13:38:18,904 INFO 11328 [egg-security] use nosniff middleware
+2022-07-15 13:38:18,904 INFO 11328 [egg-security] use xssProtection middleware
+2022-07-15 13:38:18,905 INFO 11328 [egg-security] use xframe middleware
+2022-07-15 13:38:18,905 INFO 11328 [egg-security] use dta middleware
+2022-07-15 13:38:18,905 INFO 11328 [egg-security] compose 6 middlewares into one security middleware
+2022-07-15 13:38:18,926 INFO 11328 [egg:core] dump config after load, 8ms
+2022-07-15 13:38:18,930 INFO 11328 [egg-mongoose] starting...
+2022-07-15 13:38:18,961 INFO 11328 [egg-watcher:application] watcher start success
+2022-07-15 13:38:21,146 INFO 11328 [egg-mongoose] mongodb://123.56.119.225:26030/person_admin connected successfully
+2022-07-15 13:38:21,147 INFO 11328 [egg-mongoose] instance[0] start successfully
+2022-07-15 13:38:21,152 INFO 11328 [egg:core] dump config after ready, 4ms
+2022-07-15 13:38:22,528 INFO 4460 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\Administrator\\Desktop\\frontend-project-oa-master\\完整版代码前端+后端\\server\\logs\\back_end","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"back_end-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-07-15 13:38:22,548 INFO 4460 [egg-multipart] stream mode enable
+2022-07-15 13:38:22,785 INFO 4460 [egg-mongoose] connecting mongodb://123.56.119.225:26030/person_admin
+2022-07-15 13:38:22,896 INFO 4460 [egg-static] starting static serve /public/ -> C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\public
+2022-07-15 13:38:22,897 WARN 4460 [egg-security] Please use `config.security.csrf = { enable: false }` instead of `config.security.csrf = false`
+2022-07-15 13:38:22,899 INFO 4460 [egg-security] use methodnoallow middleware
+2022-07-15 13:38:22,899 INFO 4460 [egg-security] use noopen middleware
+2022-07-15 13:38:22,900 INFO 4460 [egg-security] use nosniff middleware
+2022-07-15 13:38:22,900 INFO 4460 [egg-security] use xssProtection middleware
+2022-07-15 13:38:22,901 INFO 4460 [egg-security] use xframe middleware
+2022-07-15 13:38:22,901 INFO 4460 [egg-security] use dta middleware
+2022-07-15 13:38:22,901 INFO 4460 [egg-security] compose 6 middlewares into one security middleware
+2022-07-15 13:38:22,916 INFO 4460 [egg:core] dump config after load, 4ms
+2022-07-15 13:38:22,918 INFO 4460 [egg-mongoose] starting...
+2022-07-15 13:38:22,944 INFO 4460 [egg-watcher:application] watcher start success
+2022-07-15 13:38:27,262 INFO 4460 [egg-mongoose] mongodb://123.56.119.225:26030/person_admin connected successfully
+2022-07-15 13:38:27,263 INFO 4460 [egg-mongoose] instance[0] start successfully
+2022-07-15 13:38:27,269 INFO 4460 [egg:core] dump config after ready, 4ms
+2022-07-15 16:19:46,209 ERROR 4460 [egg-mongoose] mongodb://123.56.119.225:26030/person_admin disconnected
+2022-07-15 16:19:56,604 INFO 4460 [egg-mongoose] mongodb://123.56.119.225:26030/person_admin connected successfully
+2022-07-15 16:19:56,604 INFO 4460 [egg-mongoose] mongodb://123.56.119.225:26030/person_admin reconnected successfully
+2022-07-15 21:33:23,779 ERROR 4460 [egg-mongoose] mongodb://123.56.119.225:26030/person_admin disconnected
+2022-07-15 21:33:34,358 INFO 4460 [egg-mongoose] mongodb://123.56.119.225:26030/person_admin connected successfully
+2022-07-15 21:33:34,358 INFO 4460 [egg-mongoose] mongodb://123.56.119.225:26030/person_admin reconnected successfully
+2022-07-15 21:43:06,441 ERROR 4460 [egg-mongoose] mongodb://123.56.119.225:26030/person_admin disconnected
+2022-07-15 21:43:16,860 INFO 4460 [egg-mongoose] mongodb://123.56.119.225:26030/person_admin connected successfully
+2022-07-15 21:43:16,860 INFO 4460 [egg-mongoose] mongodb://123.56.119.225:26030/person_admin reconnected successfully
+2022-07-15 22:56:18,035 ERROR 4460 [egg-mongoose] mongodb://123.56.119.225:26030/person_admin disconnected
+2022-07-15 22:56:28,455 INFO 4460 [egg-mongoose] mongodb://123.56.119.225:26030/person_admin connected successfully
+2022-07-15 22:56:28,455 INFO 4460 [egg-mongoose] mongodb://123.56.119.225:26030/person_admin reconnected successfully
+2022-07-16 00:00:00,046 INFO 4460 [egg-logrotator] clean all log before 31 days
+2022-07-16 00:00:01,015 INFO 4460 [egg-logrotator] broadcast log-reload
+2022-07-16 00:00:01,015 INFO 4460 [egg-logrotator] rotate files success by DayRotator, files ["C:\\Users\\Administrator\\Desktop\\frontend-project-oa-master\\完整版代码前端+后端\\server\\logs\\back_end\\common-error.log -> C:\\Users\\Administrator\\Desktop\\frontend-project-oa-master\\完整版代码前端+后端\\server\\logs\\back_end\\common-error.log.2022-07-15","C:\\Users\\Administrator\\Desktop\\frontend-project-oa-master\\完整版代码前端+后端\\server\\logs\\back_end\\back_end-web.log -> C:\\Users\\Administrator\\Desktop\\frontend-project-oa-master\\完整版代码前端+后端\\server\\logs\\back_end\\back_end-web.log.2022-07-15","C:\\Users\\Administrator\\Desktop\\frontend-project-oa-master\\完整版代码前端+后端\\server\\logs\\back_end\\egg-web.log -> C:\\Users\\Administrator\\Desktop\\frontend-project-oa-master\\完整版代码前端+后端\\server\\logs\\back_end\\egg-web.log.2022-07-15","C:\\Users\\Administrator\\Desktop\\frontend-project-oa-master\\完整版代码前端+后端\\server\\logs\\back_end\\egg-schedule.log -> C:\\Users\\Administrator\\Desktop\\frontend-project-oa-master\\完整版代码前端+后端\\server\\logs\\back_end\\egg-schedule.log.2022-07-15","C:\\Users\\Administrator\\Desktop\\frontend-project-oa-master\\完整版代码前端+后端\\server\\logs\\back_end\\egg-agent.log -> C:\\Users\\Administrator\\Desktop\\frontend-project-oa-master\\完整版代码前端+后端\\server\\logs\\back_end\\egg-agent.log.2022-07-15"]

@@ -1,0 +1,134 @@
+2022-07-14 00:06:18,755 ERROR 6284 [-/127.0.0.1/-/1ms POST /api/getStaff] nodejs.TypeError: Cannot convert undefined or null to object
+    at Function.keys (<anonymous>)
+    at StaffService.findStaff (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\service\staff.js:18:29)
+    at StaffController.getStaff (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\controller\staff.js:10:40)
+    at Object.callFn (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\middleware\auth.js:12:9
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\router.js:191:33)
+
+pid: 6284
+hostname: DESKTOP-CD6QG1R
+
+2022-07-14 06:14:27,604 ERROR 3204 [egg-mongoose] mongodb://123.56.119.225:26030/person_admin disconnected
+2022-07-14 22:06:04,980 ERROR 18112 [-/127.0.0.1/-/2ms PUT /api/department/undefined] nodejs.CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "departments"
+    at model.Query.exec (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\mongoose\lib\query.js:4592:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+messageFormat: undefined
+stringValue: "\"undefined\""
+kind: "ObjectId"
+value: "undefined"
+path: "_id"
+reason: {}
+valueType: "string"
+pid: 18112
+hostname: DESKTOP-CD6QG1R
+
+2022-07-14 22:06:33,072 ERROR 18112 [-/127.0.0.1/-/1ms PUT /api/department/undefined] nodejs.CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "departments"
+    at model.Query.exec (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\mongoose\lib\query.js:4592:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+messageFormat: undefined
+stringValue: "\"undefined\""
+kind: "ObjectId"
+value: "undefined"
+path: "_id"
+reason: {}
+valueType: "string"
+pid: 18112
+hostname: DESKTOP-CD6QG1R
+
+2022-07-14 22:08:03,397 ERROR 18112 [-/127.0.0.1/-/1ms PUT /api/department/undefined] nodejs.CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "departments"
+    at model.Query.exec (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\mongoose\lib\query.js:4592:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+messageFormat: undefined
+stringValue: "\"undefined\""
+kind: "ObjectId"
+value: "undefined"
+path: "_id"
+reason: {}
+valueType: "string"
+pid: 18112
+hostname: DESKTOP-CD6QG1R
+
+2022-07-14 22:09:38,564 ERROR 18112 [-/127.0.0.1/-/2ms PUT /api/department/undefined] nodejs.CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "departments"
+    at model.Query.exec (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\mongoose\lib\query.js:4592:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+messageFormat: undefined
+stringValue: "\"undefined\""
+kind: "ObjectId"
+value: "undefined"
+path: "_id"
+reason: {}
+valueType: "string"
+pid: 18112
+hostname: DESKTOP-CD6QG1R
+
+2022-07-14 23:17:10,575 ERROR 18112 [-/127.0.0.1/-/4ms GET /api/getRouteList?] nodejs.TypeError: Cannot read properties of undefined (reading 'identity')
+    at UserService.getRouteList (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\service\userHandler.js:41:40)
+    at UserLoginController.getRouteList (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\controller\userHandler.js:32:46)
+    at Object.callFn (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\middleware\auth.js:12:9
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-compose\index.js:42:32)
+
+pid: 18112
+hostname: DESKTOP-CD6QG1R
+
+2022-07-14 23:18:57,379 ERROR 18112 [-/127.0.0.1/-/1ms PUT /api/department/undefined] nodejs.CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "departments"
+    at model.Query.exec (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\mongoose\lib\query.js:4592:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+messageFormat: undefined
+stringValue: "\"undefined\""
+kind: "ObjectId"
+value: "undefined"
+path: "_id"
+reason: {}
+valueType: "string"
+pid: 18112
+hostname: DESKTOP-CD6QG1R
+
+2022-07-14 23:39:51,685 ERROR 18112 nodejs.TypeError: Cannot read properties of undefined (reading 'children') (uncaughtException throw 1 times on pid:18112)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\service\department.js:108:17
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\mongoose\lib\model.js:5074:18
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+
+pid: 18112
+hostname: DESKTOP-CD6QG1R
+
+2022-07-14 23:48:34,966 ERROR 2908 nodejs.TypeError: Cannot read properties of undefined (reading 'children') (uncaughtException throw 1 times on pid:2908)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\service\department.js:108:17
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\mongoose\lib\model.js:5074:18
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+
+pid: 2908
+hostname: DESKTOP-CD6QG1R
+

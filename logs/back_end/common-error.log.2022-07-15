@@ -1,0 +1,40 @@
+2022-07-15 00:03:26,653 ERROR 2172 nodejs.TypeError: Cannot read properties of undefined (reading 'children') (uncaughtException throw 1 times on pid:2172)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\service\department.js:102:33
+    at Array.forEach (<anonymous>)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\service\department.js:101:23
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\mongoose\lib\model.js:5074:18
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+
+pid: 2172
+hostname: DESKTOP-CD6QG1R
+
+2022-07-15 00:31:05,267 ERROR 11212 nodejs.TypeError: Cannot read properties of undefined (reading 'children') (uncaughtException throw 1 times on pid:11212)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\service\department.js:108:17
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\mongoose\lib\model.js:5074:18
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+
+pid: 11212
+hostname: DESKTOP-CD6QG1R
+
+2022-07-15 00:43:20,449 ERROR 2080 [-/127.0.0.1/-/1ms GET /api/getStaff] nodejs.Error: 
+    at Function.throw (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\extend\application.js:30:11)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\middleware\responseData.js:4:24
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-bodyparser\index.js:95:5)
+    at async C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-static-cache\index.js:41:56
+    at async notfound (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg\app\middleware\meta.js:18:5)
+code: 404
+pid: 2080
+hostname: DESKTOP-CD6QG1R
+
+2022-07-15 16:19:46,208 ERROR 4460 [egg-mongoose] mongodb://123.56.119.225:26030/person_admin disconnected
+2022-07-15 21:33:23,778 ERROR 4460 [egg-mongoose] mongodb://123.56.119.225:26030/person_admin disconnected
+2022-07-15 21:43:06,441 ERROR 4460 [egg-mongoose] mongodb://123.56.119.225:26030/person_admin disconnected
+2022-07-15 22:56:18,034 ERROR 4460 [egg-mongoose] mongodb://123.56.119.225:26030/person_admin disconnected

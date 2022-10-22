@@ -1,0 +1,127 @@
+2022-07-16 01:05:12,655 ERROR 4460 [-/127.0.0.1/-/11ms GET /api/getRouteList?] nodejs.TypeError: Cannot read properties of undefined (reading 'identity')
+    at UserService.getRouteList (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\service\userHandler.js:41:40)
+    at UserLoginController.getRouteList (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\controller\userHandler.js:32:46)
+    at Object.callFn (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\app\middleware\auth.js:12:9
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\koa-compose\index.js:42:32)
+
+pid: 4460
+hostname: DESKTOP-CD6QG1R
+
+2022-07-16 01:38:37,429 ERROR 4460 [egg-mongoose] mongodb://123.56.119.225:26030/person_admin disconnected
+2022-08-11 01:51:12,277 ERROR 18604 [egg-mongoose] mongodb://123.56.119.225:26030/person_admin disconnected
+2022-08-11 01:52:28,352 ERROR 18604 [egg-mongoose] mongodb://123.56.119.225:26030/person_admin disconnected
+2022-08-15 03:33:30,717 ERROR 13432 [egg-mongoose] mongodb://123.56.119.225:26030/person_admin disconnected
+2022-08-15 03:40:00,465 ERROR 13432 [egg-mongoose] mongodb://123.56.119.225:26030/person_admin disconnected
+2022-08-15 03:40:47,969 ERROR 13432 [egg-mongoose] mongodb://123.56.119.225:26030/person_admin disconnected
+2022-08-15 03:44:42,666 ERROR 13432 [egg-mongoose] mongodb://123.56.119.225:26030/person_admin disconnected
+2022-08-15 03:45:57,656 ERROR 13432 [egg-mongoose] mongodb://123.56.119.225:26030/person_admin disconnected
+2022-08-15 03:48:26,402 ERROR 13432 [egg-mongoose] mongodb://123.56.119.225:26030/person_admin disconnected
+2022-10-21 22:05:38,624 ERROR 17692 [egg-mongoose] mongodb://123.56.119.225:26030/person_admin disconnected
+2022-10-21 22:05:38,642 ERROR 17692 [-/127.0.0.1/-/28381ms POST /api/login] nodejs.MongoNetworkError: connection 1 to 123.56.119.225:26030 closed
+    at Connection.handleIssue (/Users/haochen/Desktop/react项目/server/node_modules/mongodb/lib/cmap/connection.js:131:15)
+    at Socket.<anonymous> (/Users/haochen/Desktop/react项目/server/node_modules/mongodb/lib/cmap/connection.js:64:35)
+    at Socket.emit (node:events:513:28)
+    at TCP.<anonymous> (node:net:757:14)
+name: "MongoNetworkError"
+pid: 17692
+hostname: 192.168.0.213
+
+2022-10-22 00:39:03,354 ERROR 18706 [egg-mongoose] mongodb://123.56.119.225:26030/person_admin disconnected
+2022-10-22 00:39:03,359 ERROR 18706 [-/127.0.0.1/-/66212ms GET /api/getRouteList?] nodejs.MongoNetworkError: connection 1 to 123.56.119.225:26030 closed
+    at Connection.handleIssue (/Users/haochen/Desktop/react项目/server/node_modules/mongodb/lib/cmap/connection.js:131:15)
+    at Socket.<anonymous> (/Users/haochen/Desktop/react项目/server/node_modules/mongodb/lib/cmap/connection.js:64:35)
+    at Socket.emit (node:events:513:28)
+    at TCP.<anonymous> (node:net:757:14)
+name: "MongoNetworkError"
+pid: 18706
+hostname: 192.168.0.213
+
+2022-10-22 13:43:50,401 ERROR 20844 [egg-mongoose] mongodb://123.56.119.225:26030/person_admin disconnected
+2022-10-22 13:43:50,406 ERROR 20844 [-/127.0.0.1/-/18664ms GET /api/getRouteList?] nodejs.MongoNetworkError: connection 1 to 123.56.119.225:26030 closed
+    at Connection.handleIssue (/Users/haochen/Desktop/react项目/server/node_modules/mongodb/lib/cmap/connection.js:131:15)
+    at Socket.<anonymous> (/Users/haochen/Desktop/react项目/server/node_modules/mongodb/lib/cmap/connection.js:64:35)
+    at Socket.emit (node:events:513:28)
+    at TCP.<anonymous> (node:net:757:14)
+name: "MongoNetworkError"
+pid: 20844
+hostname: 192.168.0.213
+
+2022-10-22 14:20:59,798 ERROR 20844 [egg-mongoose] mongodb://123.56.119.225:26030/person_admin disconnected
+2022-10-22 14:20:59,803 ERROR 20844 [-/127.0.0.1/-/27414ms GET /api/getAttendanceTable?] nodejs.MongoNetworkError: connection 3 to 123.56.119.225:26030 closed
+    at Connection.handleIssue (/Users/haochen/Desktop/react项目/server/node_modules/mongodb/lib/cmap/connection.js:131:15)
+    at Socket.<anonymous> (/Users/haochen/Desktop/react项目/server/node_modules/mongodb/lib/cmap/connection.js:64:35)
+    at Socket.emit (node:events:513:28)
+    at TCP.<anonymous> (node:net:757:14)
+name: "MongoNetworkError"
+pid: 20844
+hostname: 192.168.0.213
+
+2022-10-22 14:31:31,341 ERROR 20844 [egg-mongoose] mongodb://123.56.119.225:26030/person_admin disconnected
+2022-10-22 14:31:31,346 ERROR 20844 [-/127.0.0.1/-/22229ms GET /api/getRouteList?] nodejs.MongoNetworkError: connection 4 to 123.56.119.225:26030 closed
+    at Connection.handleIssue (/Users/haochen/Desktop/react项目/server/node_modules/mongodb/lib/cmap/connection.js:131:15)
+    at Socket.<anonymous> (/Users/haochen/Desktop/react项目/server/node_modules/mongodb/lib/cmap/connection.js:64:35)
+    at Socket.emit (node:events:513:28)
+    at TCP.<anonymous> (node:net:757:14)
+name: "MongoNetworkError"
+pid: 20844
+hostname: 192.168.0.213
+
+2022-10-22 14:49:25,621 ERROR 20844 [egg-mongoose] mongodb://123.56.119.225:26030/person_admin disconnected
+2022-10-22 14:49:25,622 ERROR 20844 [-/127.0.0.1/-/18810ms GET /api/getRouteList?] nodejs.MongoNetworkError: connection 13 to 123.56.119.225:26030 closed
+    at Connection.handleIssue (/Users/haochen/Desktop/react项目/server/node_modules/mongodb/lib/cmap/connection.js:131:15)
+    at Socket.<anonymous> (/Users/haochen/Desktop/react项目/server/node_modules/mongodb/lib/cmap/connection.js:64:35)
+    at Socket.emit (node:events:513:28)
+    at TCP.<anonymous> (node:net:757:14)
+name: "MongoNetworkError"
+pid: 20844
+hostname: 192.168.0.213
+
+2022-10-22 14:49:25,997 ERROR 20844 [-/127.0.0.1/-/18617ms GET /api/department?page=1&size=5] nodejs.MongoNetworkError: connection 10 to 123.56.119.225:26030 closed
+    at Connection.handleIssue (/Users/haochen/Desktop/react项目/server/node_modules/mongodb/lib/cmap/connection.js:131:15)
+    at Socket.<anonymous> (/Users/haochen/Desktop/react项目/server/node_modules/mongodb/lib/cmap/connection.js:64:35)
+    at Socket.emit (node:events:513:28)
+    at TCP.<anonymous> (node:net:757:14)
+name: "MongoNetworkError"
+pid: 20844
+hostname: 192.168.0.213
+
+2022-10-22 14:49:26,230 ERROR 20844 [-/127.0.0.1/-/18850ms POST /api/getLevel] nodejs.MongoNetworkError: connection 11 to 123.56.119.225:26030 closed
+    at Connection.handleIssue (/Users/haochen/Desktop/react项目/server/node_modules/mongodb/lib/cmap/connection.js:131:15)
+    at Socket.<anonymous> (/Users/haochen/Desktop/react项目/server/node_modules/mongodb/lib/cmap/connection.js:64:35)
+    at Socket.emit (node:events:513:28)
+    at TCP.<anonymous> (node:net:757:14)
+name: "MongoNetworkError"
+pid: 20844
+hostname: 192.168.0.213
+
+2022-10-22 14:49:41,705 ERROR 20844 [-/127.0.0.1/-/18868ms GET /api/getRouteList?] nodejs.MongoNetworkError: connection 12 to 123.56.119.225:26030 closed
+    at Connection.handleIssue (/Users/haochen/Desktop/react项目/server/node_modules/mongodb/lib/cmap/connection.js:131:15)
+    at Socket.<anonymous> (/Users/haochen/Desktop/react项目/server/node_modules/mongodb/lib/cmap/connection.js:64:35)
+    at Socket.emit (node:events:513:28)
+    at TCP.<anonymous> (node:net:757:14)
+name: "MongoNetworkError"
+pid: 20844
+hostname: 192.168.0.213
+
+2022-10-22 16:04:31,788 ERROR 899 [egg-mongoose] mongodb://123.56.119.225:26030/person_admin disconnected
+2022-10-22 16:04:31,795 ERROR 899 [-/127.0.0.1/-/20222ms POST /api/login] nodejs.MongoNetworkError: connection 1 to 123.56.119.225:26030 closed
+    at Connection.handleIssue (/Users/haochen/Desktop/OA-System-server/node_modules/mongodb/lib/cmap/connection.js:131:15)
+    at Socket.<anonymous> (/Users/haochen/Desktop/OA-System-server/node_modules/mongodb/lib/cmap/connection.js:64:35)
+    at Socket.emit (node:events:513:28)
+    at TCP.<anonymous> (node:net:757:14)
+name: "MongoNetworkError"
+pid: 899
+hostname: 192.168.0.213
+

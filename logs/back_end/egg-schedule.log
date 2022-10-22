@@ -1,0 +1,105 @@
+2022-08-11 01:02:56,348 INFO 16664 [egg-schedule]: register schedule C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2022-08-11 01:02:56,348 INFO 16664 [egg-schedule]: register schedule C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-logrotator\app\schedule\clean_log.js
+2022-08-11 01:02:56,348 INFO 16664 [egg-schedule]: register schedule C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2022-08-11 01:02:57,219 INFO 18472 [egg-schedule]: register schedule C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2022-08-11 01:02:57,219 INFO 18472 [egg-schedule]: register schedule C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-logrotator\app\schedule\clean_log.js
+2022-08-11 01:02:57,219 INFO 18472 [egg-schedule]: register schedule C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2022-08-11 01:02:59,321 INFO 6056 [Timer] C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 12420683ms at 2022-08-11 04:30:00.004
+2022-08-11 01:02:59,322 INFO 6056 [Timer] C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 82620679ms at 2022-08-12 00:00:00.001
+2022-08-11 01:02:59,322 INFO 6056 [Timer] C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 82621678ms at 2022-08-12 00:00:01.000
+2022-08-11 01:03:00,576 INFO 18604 [egg-schedule]: register schedule C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2022-08-11 01:03:00,576 INFO 18604 [egg-schedule]: register schedule C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-logrotator\app\schedule\clean_log.js
+2022-08-11 01:03:00,577 INFO 18604 [egg-schedule]: register schedule C:\Users\Administrator\Desktop\frontend-project-oa-master\完整版代码前端+后端\server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2022-08-15 03:10:41,428 INFO 13072 [egg-schedule]: register schedule C:\Users\Administrator\Desktop\前端学习资料和练习\自己瞎写\上传\react项目\server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2022-08-15 03:10:41,428 INFO 13072 [egg-schedule]: register schedule C:\Users\Administrator\Desktop\前端学习资料和练习\自己瞎写\上传\react项目\server\node_modules\egg-logrotator\app\schedule\clean_log.js
+2022-08-15 03:10:41,428 INFO 13072 [egg-schedule]: register schedule C:\Users\Administrator\Desktop\前端学习资料和练习\自己瞎写\上传\react项目\server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2022-08-15 03:10:42,549 INFO 15100 [egg-schedule]: register schedule C:\Users\Administrator\Desktop\前端学习资料和练习\自己瞎写\上传\react项目\server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2022-08-15 03:10:42,549 INFO 15100 [egg-schedule]: register schedule C:\Users\Administrator\Desktop\前端学习资料和练习\自己瞎写\上传\react项目\server\node_modules\egg-logrotator\app\schedule\clean_log.js
+2022-08-15 03:10:42,549 INFO 15100 [egg-schedule]: register schedule C:\Users\Administrator\Desktop\前端学习资料和练习\自己瞎写\上传\react项目\server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2022-08-15 03:10:43,901 INFO 15620 [Timer] C:\Users\Administrator\Desktop\前端学习资料和练习\自己瞎写\上传\react项目\server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 4756103ms at 2022-08-15 04:30:00.004
+2022-08-15 03:10:43,901 INFO 15620 [Timer] C:\Users\Administrator\Desktop\前端学习资料和练习\自己瞎写\上传\react项目\server\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 74956099ms at 2022-08-16 00:00:00.000
+2022-08-15 03:10:43,902 INFO 15620 [Timer] C:\Users\Administrator\Desktop\前端学习资料和练习\自己瞎写\上传\react项目\server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 74957099ms at 2022-08-16 00:00:01.001
+2022-08-15 03:10:46,291 INFO 13432 [egg-schedule]: register schedule C:\Users\Administrator\Desktop\前端学习资料和练习\自己瞎写\上传\react项目\server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2022-08-15 03:10:46,291 INFO 13432 [egg-schedule]: register schedule C:\Users\Administrator\Desktop\前端学习资料和练习\自己瞎写\上传\react项目\server\node_modules\egg-logrotator\app\schedule\clean_log.js
+2022-08-15 03:10:46,291 INFO 13432 [egg-schedule]: register schedule C:\Users\Administrator\Desktop\前端学习资料和练习\自己瞎写\上传\react项目\server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2022-08-16 02:38:58,942 INFO 15312 [egg-schedule]: register schedule C:\Users\Administrator\Desktop\前端学习资料和练习\自己瞎写\上传\react项目\server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2022-08-16 02:38:58,942 INFO 15312 [egg-schedule]: register schedule C:\Users\Administrator\Desktop\前端学习资料和练习\自己瞎写\上传\react项目\server\node_modules\egg-logrotator\app\schedule\clean_log.js
+2022-08-16 02:38:58,942 INFO 15312 [egg-schedule]: register schedule C:\Users\Administrator\Desktop\前端学习资料和练习\自己瞎写\上传\react项目\server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2022-08-16 02:39:03,640 INFO 20688 [Timer] C:\Users\Administrator\Desktop\前端学习资料和练习\自己瞎写\上传\react项目\server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 6656362ms at 2022-08-16 04:30:00.002
+2022-08-16 02:39:03,641 INFO 20688 [Timer] C:\Users\Administrator\Desktop\前端学习资料和练习\自己瞎写\上传\react项目\server\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 76856360ms at 2022-08-17 00:00:00.001
+2022-08-16 02:39:03,641 INFO 20688 [Timer] C:\Users\Administrator\Desktop\前端学习资料和练习\自己瞎写\上传\react项目\server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 76857359ms at 2022-08-17 00:00:01.000
+2022-09-10 15:07:34,741 INFO 14250 [egg-schedule]: register schedule /Users/haochen/Desktop/学习资料和自己练习/自己瞎写/上传/react项目/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-09-10 15:07:34,741 INFO 14250 [egg-schedule]: register schedule /Users/haochen/Desktop/学习资料和自己练习/自己瞎写/上传/react项目/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-09-10 15:07:34,741 INFO 14250 [egg-schedule]: register schedule /Users/haochen/Desktop/学习资料和自己练习/自己瞎写/上传/react项目/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-09-10 15:07:35,332 INFO 14247 [Timer] /Users/haochen/Desktop/学习资料和自己练习/自己瞎写/上传/react项目/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 48144671ms at 2022-09-11 04:30:00.002
+2022-09-10 15:07:35,332 INFO 14247 [Timer] /Users/haochen/Desktop/学习资料和自己练习/自己瞎写/上传/react项目/server/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 31944668ms at 2022-09-11 00:00:00.000
+2022-09-10 15:07:35,332 INFO 14247 [Timer] /Users/haochen/Desktop/学习资料和自己练习/自己瞎写/上传/react项目/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 31945668ms at 2022-09-11 00:00:01.000
+2022-09-11 08:00:35,504 INFO 47403 [egg-schedule]: register schedule /Users/haochen/Desktop/学习资料和自己练习/自己瞎写/上传/react项目/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-09-11 08:00:35,504 INFO 47403 [egg-schedule]: register schedule /Users/haochen/Desktop/学习资料和自己练习/自己瞎写/上传/react项目/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-09-11 08:00:35,504 INFO 47403 [egg-schedule]: register schedule /Users/haochen/Desktop/学习资料和自己练习/自己瞎写/上传/react项目/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-09-11 08:00:36,125 INFO 47399 [Timer] /Users/haochen/Desktop/学习资料和自己练习/自己瞎写/上传/react项目/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 73763878ms at 2022-09-12 04:30:00.003
+2022-09-11 08:00:36,126 INFO 47399 [Timer] /Users/haochen/Desktop/学习资料和自己练习/自己瞎写/上传/react项目/server/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 57563875ms at 2022-09-12 00:00:00.001
+2022-09-11 08:00:36,126 INFO 47399 [Timer] /Users/haochen/Desktop/学习资料和自己练习/自己瞎写/上传/react项目/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 57564874ms at 2022-09-12 00:00:01.000
+2022-09-11 17:21:28,791 INFO 79362 [egg-schedule]: register schedule /Users/haochen/Desktop/学习资料和自己练习/自己瞎写/上传/react项目/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-09-11 17:21:28,791 INFO 79362 [egg-schedule]: register schedule /Users/haochen/Desktop/学习资料和自己练习/自己瞎写/上传/react项目/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-09-11 17:21:28,792 INFO 79362 [egg-schedule]: register schedule /Users/haochen/Desktop/学习资料和自己练习/自己瞎写/上传/react项目/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-09-11 17:21:29,443 INFO 79361 [Timer] /Users/haochen/Desktop/学习资料和自己练习/自己瞎写/上传/react项目/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 40110561ms at 2022-09-12 04:30:00.003
+2022-09-11 17:21:29,443 INFO 79361 [Timer] /Users/haochen/Desktop/学习资料和自己练习/自己瞎写/上传/react项目/server/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 23910557ms at 2022-09-12 00:00:00.000
+2022-09-11 17:21:29,443 INFO 79361 [Timer] /Users/haochen/Desktop/学习资料和自己练习/自己瞎写/上传/react项目/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 23911557ms at 2022-09-12 00:00:01.000
+2022-09-11 17:45:09,787 INFO 80215 [egg-schedule]: register schedule /Users/haochen/Desktop/学习资料和自己练习/自己瞎写/上传/react项目/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-09-11 17:45:09,787 INFO 80215 [egg-schedule]: register schedule /Users/haochen/Desktop/学习资料和自己练习/自己瞎写/上传/react项目/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-09-11 17:45:09,788 INFO 80215 [egg-schedule]: register schedule /Users/haochen/Desktop/学习资料和自己练习/自己瞎写/上传/react项目/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-09-11 17:45:10,394 INFO 80214 [Timer] /Users/haochen/Desktop/学习资料和自己练习/自己瞎写/上传/react项目/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 38689610ms at 2022-09-12 04:30:00.003
+2022-09-11 17:45:10,394 INFO 80214 [Timer] /Users/haochen/Desktop/学习资料和自己练习/自己瞎写/上传/react项目/server/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 22489606ms at 2022-09-12 00:00:00.000
+2022-09-11 17:45:10,394 INFO 80214 [Timer] /Users/haochen/Desktop/学习资料和自己练习/自己瞎写/上传/react项目/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 22490606ms at 2022-09-12 00:00:01.000
+2022-09-18 16:17:53,492 INFO 14807 [egg-schedule]: register schedule /Users/haochen/Desktop/学习资料和自己练习/自己瞎写/上传/react项目/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-09-18 16:17:53,492 INFO 14807 [egg-schedule]: register schedule /Users/haochen/Desktop/学习资料和自己练习/自己瞎写/上传/react项目/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-09-18 16:17:53,492 INFO 14807 [egg-schedule]: register schedule /Users/haochen/Desktop/学习资料和自己练习/自己瞎写/上传/react项目/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-09-18 16:17:54,105 INFO 14806 [Timer] /Users/haochen/Desktop/学习资料和自己练习/自己瞎写/上传/react项目/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 43925899ms at 2022-09-19 04:30:00.003
+2022-09-18 16:17:54,105 INFO 14806 [Timer] /Users/haochen/Desktop/学习资料和自己练习/自己瞎写/上传/react项目/server/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 27725895ms at 2022-09-19 00:00:00.000
+2022-09-18 16:17:54,105 INFO 14806 [Timer] /Users/haochen/Desktop/学习资料和自己练习/自己瞎写/上传/react项目/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 27726895ms at 2022-09-19 00:00:01.000
+2022-10-03 17:21:20,837 INFO 35851 [Timer] /Users/haochen/Desktop/react项目/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 40119165ms at 2022-10-04 04:30:00.002
+2022-10-03 17:21:20,837 INFO 35851 [Timer] /Users/haochen/Desktop/react项目/server/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 23919163ms at 2022-10-04 00:00:00.000
+2022-10-03 17:21:20,837 INFO 35851 [Timer] /Users/haochen/Desktop/react项目/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 23920163ms at 2022-10-04 00:00:01.000
+2022-10-03 17:21:20,439 INFO 35852 [egg-schedule]: register schedule /Users/haochen/Desktop/react项目/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-10-03 17:21:20,439 INFO 35852 [egg-schedule]: register schedule /Users/haochen/Desktop/react项目/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-10-03 17:21:20,439 INFO 35852 [egg-schedule]: register schedule /Users/haochen/Desktop/react项目/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-10-21 21:42:11,103 INFO 17692 [egg-schedule]: register schedule /Users/haochen/Desktop/react项目/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-10-21 21:42:11,103 INFO 17692 [egg-schedule]: register schedule /Users/haochen/Desktop/react项目/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-10-21 21:42:11,103 INFO 17692 [egg-schedule]: register schedule /Users/haochen/Desktop/react项目/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-10-21 21:42:11,711 INFO 17689 [Timer] /Users/haochen/Desktop/react项目/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 24468292ms at 2022-10-22 04:30:00.003
+2022-10-21 21:42:11,711 INFO 17689 [Timer] /Users/haochen/Desktop/react项目/server/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 8268289ms at 2022-10-22 00:00:00.000
+2022-10-21 21:42:11,712 INFO 17689 [Timer] /Users/haochen/Desktop/react项目/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 8269289ms at 2022-10-22 00:00:01.001
+2022-10-22 00:17:55,887 INFO 18706 [egg-schedule]: register schedule /Users/haochen/Desktop/react项目/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-10-22 00:17:55,887 INFO 18706 [egg-schedule]: register schedule /Users/haochen/Desktop/react项目/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-10-22 00:17:55,887 INFO 18706 [egg-schedule]: register schedule /Users/haochen/Desktop/react项目/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-10-22 00:17:56,586 INFO 18705 [Timer] /Users/haochen/Desktop/react项目/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 15123417ms at 2022-10-22 04:30:00.002
+2022-10-22 00:17:56,586 INFO 18705 [Timer] /Users/haochen/Desktop/react项目/server/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 85323414ms at 2022-10-23 00:00:00.000
+2022-10-22 00:17:56,587 INFO 18705 [Timer] /Users/haochen/Desktop/react项目/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 85324413ms at 2022-10-23 00:00:01.000
+2022-10-22 13:23:41,161 INFO 20843 [Timer] /Users/haochen/Desktop/react项目/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 54378842ms at 2022-10-23 04:30:00.003
+2022-10-22 13:23:41,162 INFO 20843 [Timer] /Users/haochen/Desktop/react项目/server/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 38178839ms at 2022-10-23 00:00:00.001
+2022-10-22 13:23:41,162 INFO 20843 [Timer] /Users/haochen/Desktop/react项目/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 38179838ms at 2022-10-23 00:00:01.000
+2022-10-22 13:23:40,621 INFO 20844 [egg-schedule]: register schedule /Users/haochen/Desktop/react项目/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-10-22 13:23:40,621 INFO 20844 [egg-schedule]: register schedule /Users/haochen/Desktop/react项目/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-10-22 13:23:40,621 INFO 20844 [egg-schedule]: register schedule /Users/haochen/Desktop/react项目/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-10-22 15:52:30,176 INFO 24244 [egg-schedule]: register schedule /Users/haochen/Desktop/OA-System-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-10-22 15:52:30,176 INFO 24244 [egg-schedule]: register schedule /Users/haochen/Desktop/OA-System-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-10-22 15:52:30,176 INFO 24244 [egg-schedule]: register schedule /Users/haochen/Desktop/OA-System-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-10-22 15:52:30,797 INFO 24243 [Timer] /Users/haochen/Desktop/OA-System-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 45449206ms at 2022-10-23 04:30:00.003
+2022-10-22 15:52:30,797 INFO 24243 [Timer] /Users/haochen/Desktop/OA-System-server/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 29249203ms at 2022-10-23 00:00:00.000
+2022-10-22 15:52:30,798 INFO 24243 [Timer] /Users/haochen/Desktop/OA-System-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 29250203ms at 2022-10-23 00:00:01.001
+2022-10-22 15:54:45,316 INFO 24573 [egg-schedule]: register schedule /Users/haochen/Desktop/OA-System-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-10-22 15:54:45,316 INFO 24573 [egg-schedule]: register schedule /Users/haochen/Desktop/OA-System-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-10-22 15:54:45,316 INFO 24573 [egg-schedule]: register schedule /Users/haochen/Desktop/OA-System-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-10-22 15:54:46,863 INFO 24572 [Timer] /Users/haochen/Desktop/OA-System-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 45313140ms at 2022-10-23 04:30:00.003
+2022-10-22 15:54:46,863 INFO 24572 [Timer] /Users/haochen/Desktop/OA-System-server/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 29113137ms at 2022-10-23 00:00:00.000
+2022-10-22 15:54:46,864 INFO 24572 [Timer] /Users/haochen/Desktop/OA-System-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 29114137ms at 2022-10-23 00:00:01.001
+2022-10-22 15:57:06,923 INFO 899 [egg-schedule]: register schedule /Users/haochen/Desktop/OA-System-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-10-22 15:57:06,923 INFO 899 [egg-schedule]: register schedule /Users/haochen/Desktop/OA-System-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-10-22 15:57:06,923 INFO 899 [egg-schedule]: register schedule /Users/haochen/Desktop/OA-System-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-10-22 15:57:15,483 INFO 898 [Timer] /Users/haochen/Desktop/OA-System-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 45164520ms at 2022-10-23 04:30:00.003
+2022-10-22 15:57:15,483 INFO 898 [Timer] /Users/haochen/Desktop/OA-System-server/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 28964517ms at 2022-10-23 00:00:00.000
+2022-10-22 15:57:15,484 INFO 898 [Timer] /Users/haochen/Desktop/OA-System-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 28965517ms at 2022-10-23 00:00:01.001
+2022-10-22 16:07:38,895 INFO 2653 [egg-schedule]: register schedule /Users/haochen/Desktop/OA-System-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-10-22 16:07:38,895 INFO 2653 [egg-schedule]: register schedule /Users/haochen/Desktop/OA-System-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-10-22 16:07:38,895 INFO 2653 [egg-schedule]: register schedule /Users/haochen/Desktop/OA-System-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js

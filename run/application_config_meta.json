@@ -1,0 +1,313 @@
+{
+  "keys": "/Users/haochen/Desktop/OA-System-server/config/config.default.js",
+  "middleware": "/Users/haochen/Desktop/OA-System-server/config/config.default.js",
+  "validate": {
+    "translate": "/Users/haochen/Desktop/OA-System-server/config/config.default.js"
+  },
+  "security": {
+    "csrf": "/Users/haochen/Desktop/OA-System-server/config/config.default.js",
+    "domainWhiteList": "/Users/haochen/Desktop/OA-System-server/node_modules/egg-security/config/config.default.js",
+    "protocolWhiteList": "/Users/haochen/Desktop/OA-System-server/node_modules/egg-security/config/config.default.js",
+    "defaultMiddleware": "/Users/haochen/Desktop/OA-System-server/node_modules/egg-security/config/config.default.js",
+    "xframe": {
+      "enable": "/Users/haochen/Desktop/OA-System-server/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/haochen/Desktop/OA-System-server/node_modules/egg-security/config/config.default.js"
+    },
+    "hsts": {
+      "enable": "/Users/haochen/Desktop/OA-System-server/node_modules/egg-security/config/config.local.js",
+      "maxAge": "/Users/haochen/Desktop/OA-System-server/node_modules/egg-security/config/config.default.js",
+      "includeSubdomains": "/Users/haochen/Desktop/OA-System-server/node_modules/egg-security/config/config.default.js"
+    },
+    "dta": {
+      "enable": "/Users/haochen/Desktop/OA-System-server/node_modules/egg-security/config/config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "/Users/haochen/Desktop/OA-System-server/node_modules/egg-security/config/config.default.js"
+    },
+    "noopen": {
+      "enable": "/Users/haochen/Desktop/OA-System-server/node_modules/egg-security/config/config.default.js"
+    },
+    "nosniff": {
+      "enable": "/Users/haochen/Desktop/OA-System-server/node_modules/egg-security/config/config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "/Users/haochen/Desktop/OA-System-server/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/haochen/Desktop/OA-System-server/node_modules/egg-security/config/config.default.js"
+    },
+    "xssProtection": {
+      "enable": "/Users/haochen/Desktop/OA-System-server/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/haochen/Desktop/OA-System-server/node_modules/egg-security/config/config.default.js"
+    },
+    "csp": {
+      "enable": "/Users/haochen/Desktop/OA-System-server/node_modules/egg-security/config/config.default.js",
+      "policy": "/Users/haochen/Desktop/OA-System-server/node_modules/egg-security/config/config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "/Users/haochen/Desktop/OA-System-server/node_modules/egg-security/config/config.default.js",
+      "ipExceptionList": "/Users/haochen/Desktop/OA-System-server/node_modules/egg-security/config/config.default.js",
+      "checkAddress": "/Users/haochen/Desktop/OA-System-server/node_modules/egg-security/config/config.default.js"
+    }
+  },
+  "onerror": {
+    "errorPageUrl": "/Users/haochen/Desktop/OA-System-server/config/config.default.js",
+    "all": "/Users/haochen/Desktop/OA-System-server/config/config.default.js",
+    "appErrorFilter": "/Users/haochen/Desktop/OA-System-server/node_modules/egg-onerror/config/config.default.js",
+    "templatePath": "/Users/haochen/Desktop/OA-System-server/node_modules/egg-onerror/config/config.default.js"
+  },
+  "mongoose": {
+    "url": "/Users/haochen/Desktop/OA-System-server/config/config.default.js",
+    "options": {
+      "useNewUrlParser": "/Users/haochen/Desktop/OA-System-server/config/config.default.js",
+      "useUnifiedTopology": "/Users/haochen/Desktop/OA-System-server/config/config.default.js",
+      "user": "/Users/haochen/Desktop/OA-System-server/config/config.default.js",
+      "pass": "/Users/haochen/Desktop/OA-System-server/config/config.default.js"
+    },
+    "plugins": "/Users/haochen/Desktop/OA-System-server/node_modules/egg-mongoose/config/config.default.js",
+    "loadModel": "/Users/haochen/Desktop/OA-System-server/node_modules/egg-mongoose/config/config.default.js",
+    "app": "/Users/haochen/Desktop/OA-System-server/node_modules/egg-mongoose/config/config.default.js",
+    "agent": "/Users/haochen/Desktop/OA-System-server/node_modules/egg-mongoose/config/config.default.js"
+  },
+  "session": {
+    "maxAge": "/Users/haochen/Desktop/OA-System-server/node_modules/egg-session/config/config.default.js",
+    "key": "/Users/haochen/Desktop/OA-System-server/node_modules/egg-session/config/config.default.js",
+    "httpOnly": "/Users/haochen/Desktop/OA-System-server/node_modules/egg-session/config/config.default.js",
+    "encrypt": "/Users/haochen/Desktop/OA-System-server/node_modules/egg-session/config/config.default.js",
+    "logValue": "/Users/haochen/Desktop/OA-System-server/node_modules/egg-session/config/config.default.js"
+  },
+  "helper": {
+    "shtml": "/Users/haochen/Desktop/OA-System-server/node_modules/egg-security/config/config.default.js"
+  },
+  "jsonp": {
+    "limit": "/Users/haochen/Desktop/OA-System-server/node_modules/egg-jsonp/config/config.default.js",
+    "callback": "/Users/haochen/Desktop/OA-System-server/node_modules/egg-jsonp/config/config.default.js",
+    "csrf": "/Users/haochen/Desktop/OA-System-server/node_modules/egg-jsonp/config/config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "/Users/haochen/Desktop/OA-System-server/node_modules/egg-i18n/config/config.default.js",
+    "dirs": "/Users/haochen/Desktop/OA-System-server/node_modules/egg-i18n/config/config.default.js",
+    "queryField": "/Users/haochen/Desktop/OA-System-server/node_modules/egg-i18n/config/config.default.js",
+    "cookieField": "/Users/haochen/Desktop/OA-System-server/node_modules/egg-i18n/config/config.default.js",
+    "cookieDomain": "/Users/haochen/Desktop/OA-System-server/node_modules/egg-i18n/config/config.default.js",
+    "cookieMaxAge": "/Users/haochen/Desktop/OA-System-server/node_modules/egg-i18n/config/config.default.js"
+  },
+  "watcher": {
+    "type": "/Users/haochen/Desktop/OA-System-server/node_modules/egg-watcher/config/config.local.js",
+    "eventSources": {
+      "default": "/Users/haochen/Desktop/OA-System-server/node_modules/egg-watcher/config/config.default.js",
+      "development": "/Users/haochen/Desktop/OA-System-server/node_modules/egg-watcher/config/config.default.js"
+    }
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "/Users/haochen/Desktop/OA-System-server/node_modules/egg-schedule/config/config.default.js",
+      "file": "/Users/haochen/Desktop/OA-System-server/node_modules/egg-schedule/config/config.default.js"
+    }
+  },
+  "schedule": {
+    "directory": "/Users/haochen/Desktop/OA-System-server/node_modules/egg-schedule/config/config.default.js"
+  },
+  "multipart": {
+    "mode": "/Users/haochen/Desktop/OA-System-server/node_modules/egg-multipart/config/config.default.js",
+    "autoFields": "/Users/haochen/Desktop/OA-System-server/node_modules/egg-multipart/config/config.default.js",
+    "defaultCharset": "/Users/haochen/Desktop/OA-System-server/node_modules/egg-multipart/config/config.default.js",
+    "fieldNameSize": "/Users/haochen/Desktop/OA-System-server/node_modules/egg-multipart/config/config.default.js",
+    "fieldSize": "/Users/haochen/Desktop/OA-System-server/node_modules/egg-multipart/config/config.default.js",
+    "fields": "/Users/haochen/Desktop/OA-System-server/node_modules/egg-multipart/config/config.default.js",
+    "fileSize": "/Users/haochen/Desktop/OA-System-server/node_modules/egg-multipart/config/config.default.js",
+    "files": "/Users/haochen/Desktop/OA-System-server/node_modules/egg-multipart/config/config.default.js",
+    "fileExtensions": "/Users/haochen/Desktop/OA-System-server/node_modules/egg-multipart/config/config.default.js",
+    "whitelist": "/Users/haochen/Desktop/OA-System-server/node_modules/egg-multipart/config/config.default.js",
+    "allowArrayField": "/Users/haochen/Desktop/OA-System-server/node_modules/egg-multipart/config/config.default.js",
+    "tmpdir": "/Users/haochen/Desktop/OA-System-server/node_modules/egg-multipart/config/config.default.js",
+    "cleanSchedule": {
+      "cron": "/Users/haochen/Desktop/OA-System-server/node_modules/egg-multipart/config/config.default.js",
+      "disable": "/Users/haochen/Desktop/OA-System-server/node_modules/egg-multipart/config/config.default.js"
+    }
+  },
+  "development": {
+    "watchDirs": "/Users/haochen/Desktop/OA-System-server/node_modules/egg-development/config/config.default.js",
+    "ignoreDirs": "/Users/haochen/Desktop/OA-System-server/node_modules/egg-development/config/config.default.js",
+    "fastReady": "/Users/haochen/Desktop/OA-System-server/node_modules/egg-development/config/config.default.js",
+    "reloadOnDebug": "/Users/haochen/Desktop/OA-System-server/node_modules/egg-development/config/config.default.js",
+    "overrideDefault": "/Users/haochen/Desktop/OA-System-server/node_modules/egg-development/config/config.default.js",
+    "overrideIgnore": "/Users/haochen/Desktop/OA-System-server/node_modules/egg-development/config/config.default.js"
+  },
+  "logrotator": {
+    "filesRotateByHour": "/Users/haochen/Desktop/OA-System-server/node_modules/egg-logrotator/config/config.default.js",
+    "hourDelimiter": "/Users/haochen/Desktop/OA-System-server/node_modules/egg-logrotator/config/config.default.js",
+    "filesRotateBySize": "/Users/haochen/Desktop/OA-System-server/node_modules/egg-logrotator/config/config.default.js",
+    "maxFileSize": "/Users/haochen/Desktop/OA-System-server/node_modules/egg-logrotator/config/config.default.js",
+    "maxFiles": "/Users/haochen/Desktop/OA-System-server/node_modules/egg-logrotator/config/config.default.js",
+    "rotateDuration": "/Users/haochen/Desktop/OA-System-server/node_modules/egg-logrotator/config/config.default.js",
+    "maxDays": "/Users/haochen/Desktop/OA-System-server/node_modules/egg-logrotator/config/config.default.js"
+  },
+  "static": {
+    "prefix": "/Users/haochen/Desktop/OA-System-server/node_modules/egg-static/config/config.default.js",
+    "dir": "/Users/haochen/Desktop/OA-System-server/node_modules/egg-static/config/config.default.js",
+    "dynamic": "/Users/haochen/Desktop/OA-System-server/node_modules/egg-static/config/config.default.js",
+    "preload": "/Users/haochen/Desktop/OA-System-server/node_modules/egg-static/config/config.default.js",
+    "buffer": "/Users/haochen/Desktop/OA-System-server/node_modules/egg-static/config/config.default.js",
+    "maxFiles": "/Users/haochen/Desktop/OA-System-server/node_modules/egg-static/config/config.default.js"
+  },
+  "view": {
+    "root": "/Users/haochen/Desktop/OA-System-server/node_modules/egg-view/config/config.default.js",
+    "cache": "/Users/haochen/Desktop/OA-System-server/node_modules/egg-view/config/config.local.js",
+    "defaultExtension": "/Users/haochen/Desktop/OA-System-server/node_modules/egg-view/config/config.default.js",
+    "defaultViewEngine": "/Users/haochen/Desktop/OA-System-server/node_modules/egg-view/config/config.default.js",
+    "mapping": "/Users/haochen/Desktop/OA-System-server/node_modules/egg-view/config/config.default.js"
+  },
+  "env": "/Users/haochen/Desktop/OA-System-server/node_modules/egg/config/config.default.js",
+  "name": "/Users/haochen/Desktop/OA-System-server/node_modules/egg/config/config.default.js",
+  "cookies": "/Users/haochen/Desktop/OA-System-server/node_modules/egg/config/config.default.js",
+  "proxy": "/Users/haochen/Desktop/OA-System-server/node_modules/egg/config/config.default.js",
+  "maxIpsCount": "/Users/haochen/Desktop/OA-System-server/node_modules/egg/config/config.default.js",
+  "maxProxyCount": "/Users/haochen/Desktop/OA-System-server/node_modules/egg/config/config.default.js",
+  "protocolHeaders": "/Users/haochen/Desktop/OA-System-server/node_modules/egg/config/config.default.js",
+  "ipHeaders": "/Users/haochen/Desktop/OA-System-server/node_modules/egg/config/config.default.js",
+  "hostHeaders": "/Users/haochen/Desktop/OA-System-server/node_modules/egg/config/config.default.js",
+  "pkg": {
+    "name": "/Users/haochen/Desktop/OA-System-server/node_modules/egg/config/config.default.js",
+    "version": "/Users/haochen/Desktop/OA-System-server/node_modules/egg/config/config.default.js",
+    "description": "/Users/haochen/Desktop/OA-System-server/node_modules/egg/config/config.default.js",
+    "private": "/Users/haochen/Desktop/OA-System-server/node_modules/egg/config/config.default.js",
+    "egg": {
+      "declarations": "/Users/haochen/Desktop/OA-System-server/node_modules/egg/config/config.default.js"
+    },
+    "dependencies": {
+      "bcryptjs": "/Users/haochen/Desktop/OA-System-server/node_modules/egg/config/config.default.js",
+      "egg": "/Users/haochen/Desktop/OA-System-server/node_modules/egg/config/config.default.js",
+      "egg-mongoose": "/Users/haochen/Desktop/OA-System-server/node_modules/egg/config/config.default.js",
+      "egg-scripts": "/Users/haochen/Desktop/OA-System-server/node_modules/egg/config/config.default.js",
+      "egg-validate": "/Users/haochen/Desktop/OA-System-server/node_modules/egg/config/config.default.js",
+      "i18n": "/Users/haochen/Desktop/OA-System-server/node_modules/egg/config/config.default.js",
+      "jsonwebtoken": "/Users/haochen/Desktop/OA-System-server/node_modules/egg/config/config.default.js",
+      "qiniu": "/Users/haochen/Desktop/OA-System-server/node_modules/egg/config/config.default.js",
+      "tencentcloud-sdk-nodejs": "/Users/haochen/Desktop/OA-System-server/node_modules/egg/config/config.default.js"
+    },
+    "devDependencies": {
+      "autod": "/Users/haochen/Desktop/OA-System-server/node_modules/egg/config/config.default.js",
+      "autod-egg": "/Users/haochen/Desktop/OA-System-server/node_modules/egg/config/config.default.js",
+      "egg-bin": "/Users/haochen/Desktop/OA-System-server/node_modules/egg/config/config.default.js",
+      "egg-ci": "/Users/haochen/Desktop/OA-System-server/node_modules/egg/config/config.default.js",
+      "egg-mock": "/Users/haochen/Desktop/OA-System-server/node_modules/egg/config/config.default.js",
+      "eslint": "/Users/haochen/Desktop/OA-System-server/node_modules/egg/config/config.default.js",
+      "eslint-config-egg": "/Users/haochen/Desktop/OA-System-server/node_modules/egg/config/config.default.js"
+    },
+    "engines": {
+      "node": "/Users/haochen/Desktop/OA-System-server/node_modules/egg/config/config.default.js"
+    },
+    "scripts": {
+      "start": "/Users/haochen/Desktop/OA-System-server/node_modules/egg/config/config.default.js",
+      "stop": "/Users/haochen/Desktop/OA-System-server/node_modules/egg/config/config.default.js",
+      "dev": "/Users/haochen/Desktop/OA-System-server/node_modules/egg/config/config.default.js",
+      "debug": "/Users/haochen/Desktop/OA-System-server/node_modules/egg/config/config.default.js",
+      "test": "/Users/haochen/Desktop/OA-System-server/node_modules/egg/config/config.default.js",
+      "test-local": "/Users/haochen/Desktop/OA-System-server/node_modules/egg/config/config.default.js",
+      "cov": "/Users/haochen/Desktop/OA-System-server/node_modules/egg/config/config.default.js",
+      "lint": "/Users/haochen/Desktop/OA-System-server/node_modules/egg/config/config.default.js",
+      "ci": "/Users/haochen/Desktop/OA-System-server/node_modules/egg/config/config.default.js",
+      "autod": "/Users/haochen/Desktop/OA-System-server/node_modules/egg/config/config.default.js"
+    },
+    "ci": {
+      "version": "/Users/haochen/Desktop/OA-System-server/node_modules/egg/config/config.default.js"
+    },
+    "repository": {
+      "type": "/Users/haochen/Desktop/OA-System-server/node_modules/egg/config/config.default.js",
+      "url": "/Users/haochen/Desktop/OA-System-server/node_modules/egg/config/config.default.js"
+    },
+    "author": "/Users/haochen/Desktop/OA-System-server/node_modules/egg/config/config.default.js",
+    "license": "/Users/haochen/Desktop/OA-System-server/node_modules/egg/config/config.default.js"
+  },
+  "baseDir": "/Users/haochen/Desktop/OA-System-server/node_modules/egg/config/config.default.js",
+  "HOME": "/Users/haochen/Desktop/OA-System-server/node_modules/egg/config/config.default.js",
+  "rundir": "/Users/haochen/Desktop/OA-System-server/node_modules/egg/config/config.default.js",
+  "dump": {
+    "ignore": "/Users/haochen/Desktop/OA-System-server/node_modules/egg/config/config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "/Users/haochen/Desktop/OA-System-server/node_modules/egg/config/config.default.js",
+    "notFound": "/Users/haochen/Desktop/OA-System-server/node_modules/egg/config/config.default.js",
+    "sitefile": "/Users/haochen/Desktop/OA-System-server/node_modules/egg/config/config.default.js",
+    "middlewares": "/Users/haochen/Desktop/OA-System-server/node_modules/egg/config/config.default.js",
+    "httpClient": "/Users/haochen/Desktop/OA-System-server/node_modules/egg/config/config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "/Users/haochen/Desktop/OA-System-server/node_modules/egg/config/config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "/Users/haochen/Desktop/OA-System-server/node_modules/egg/config/config.default.js",
+    "cacheControl": "/Users/haochen/Desktop/OA-System-server/node_modules/egg/config/config.default.js"
+  },
+  "bodyParser": {
+    "enable": "/Users/haochen/Desktop/OA-System-server/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/haochen/Desktop/OA-System-server/node_modules/egg/config/config.default.js",
+    "formLimit": "/Users/haochen/Desktop/OA-System-server/node_modules/egg/config/config.default.js",
+    "jsonLimit": "/Users/haochen/Desktop/OA-System-server/node_modules/egg/config/config.default.js",
+    "textLimit": "/Users/haochen/Desktop/OA-System-server/node_modules/egg/config/config.default.js",
+    "strict": "/Users/haochen/Desktop/OA-System-server/node_modules/egg/config/config.default.js",
+    "queryString": {
+      "arrayLimit": "/Users/haochen/Desktop/OA-System-server/node_modules/egg/config/config.default.js",
+      "depth": "/Users/haochen/Desktop/OA-System-server/node_modules/egg/config/config.default.js",
+      "parameterLimit": "/Users/haochen/Desktop/OA-System-server/node_modules/egg/config/config.default.js"
+    },
+    "onerror": "/Users/haochen/Desktop/OA-System-server/node_modules/egg/config/config.default.js"
+  },
+  "logger": {
+    "dir": "/Users/haochen/Desktop/OA-System-server/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/haochen/Desktop/OA-System-server/node_modules/egg/config/config.default.js",
+    "env": "/Users/haochen/Desktop/OA-System-server/node_modules/egg/config/config.default.js",
+    "level": "/Users/haochen/Desktop/OA-System-server/node_modules/egg/config/config.default.js",
+    "consoleLevel": "/Users/haochen/Desktop/OA-System-server/node_modules/egg/config/config.default.js",
+    "disableConsoleAfterReady": "/Users/haochen/Desktop/OA-System-server/node_modules/egg/config/config.default.js",
+    "outputJSON": "/Users/haochen/Desktop/OA-System-server/node_modules/egg/config/config.default.js",
+    "buffer": "/Users/haochen/Desktop/OA-System-server/node_modules/egg/config/config.default.js",
+    "appLogName": "/Users/haochen/Desktop/OA-System-server/node_modules/egg/config/config.default.js",
+    "coreLogName": "/Users/haochen/Desktop/OA-System-server/node_modules/egg/config/config.default.js",
+    "agentLogName": "/Users/haochen/Desktop/OA-System-server/node_modules/egg/config/config.default.js",
+    "errorLogName": "/Users/haochen/Desktop/OA-System-server/node_modules/egg/config/config.default.js",
+    "coreLogger": {
+      "consoleLevel": "/Users/haochen/Desktop/OA-System-server/node_modules/egg/config/config.local.js"
+    },
+    "allowDebugAtProd": "/Users/haochen/Desktop/OA-System-server/node_modules/egg/config/config.default.js",
+    "enablePerformanceTimer": "/Users/haochen/Desktop/OA-System-server/node_modules/egg/config/config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "/Users/haochen/Desktop/OA-System-server/node_modules/egg/config/config.default.js",
+    "dnsCacheLookupInterval": "/Users/haochen/Desktop/OA-System-server/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxLength": "/Users/haochen/Desktop/OA-System-server/node_modules/egg/config/config.default.js",
+    "request": {
+      "timeout": "/Users/haochen/Desktop/OA-System-server/node_modules/egg/config/config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "/Users/haochen/Desktop/OA-System-server/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/haochen/Desktop/OA-System-server/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/haochen/Desktop/OA-System-server/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/haochen/Desktop/OA-System-server/node_modules/egg/config/config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "/Users/haochen/Desktop/OA-System-server/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/haochen/Desktop/OA-System-server/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/haochen/Desktop/OA-System-server/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/haochen/Desktop/OA-System-server/node_modules/egg/config/config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "/Users/haochen/Desktop/OA-System-server/node_modules/egg/config/config.default.js",
+    "logging": "/Users/haochen/Desktop/OA-System-server/node_modules/egg/config/config.default.js"
+  },
+  "coreMiddleware": "/Users/haochen/Desktop/OA-System-server/node_modules/egg/config/config.default.js",
+  "workerStartTimeout": "/Users/haochen/Desktop/OA-System-server/node_modules/egg/config/config.default.js",
+  "serverTimeout": "/Users/haochen/Desktop/OA-System-server/node_modules/egg/config/config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "/Users/haochen/Desktop/OA-System-server/node_modules/egg/config/config.default.js",
+      "port": "/Users/haochen/Desktop/OA-System-server/node_modules/egg/config/config.default.js",
+      "hostname": "/Users/haochen/Desktop/OA-System-server/node_modules/egg/config/config.default.js"
+    }
+  },
+  "clusterClient": {
+    "maxWaitTime": "/Users/haochen/Desktop/OA-System-server/node_modules/egg/config/config.default.js",
+    "responseTimeout": "/Users/haochen/Desktop/OA-System-server/node_modules/egg/config/config.default.js"
+  },
+  "onClientError": "/Users/haochen/Desktop/OA-System-server/node_modules/egg/config/config.default.js"
+}
